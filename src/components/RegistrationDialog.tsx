@@ -54,7 +54,7 @@ const RegistrationDialog = () => {
               </div>
               <div className="flex items-center gap-2 text-white/90">
                 <MapPin size={15} className="shrink-0" />
-                <span>OUTR (Formerly CET), Bhubaneswar</span>
+                <span> IBCS,Seminar hall SOA Campus 2 Near sum Hospital,Bhubaneswar</span>
               </div>
               <a
                 href="https://forms.gle/kRX4xs9tmu5XFSag9"
