@@ -69,7 +69,7 @@ const UpcomingEventCard = () => {
 
               <div className="flex flex-wrap gap-3 pt-2">
                 <a
-                  href="https://forms.gle/kRX4xs9tmu5XFSag9"
+                  href="REGISTRATION COMING SOON..."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-saffron-gradient text-primary-foreground font-medium shadow-saffron hover:opacity-90 transition-opacity"
