@@ -59,7 +59,7 @@ const UpcomingEventCard = () => {
                   <CalendarDays size={16} /> Date: 28 March 2026
                 </span>
                 <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary font-medium text-sm">
-                  <MapPin size={16} /> OUTR, Bhubaneswar
+                  <MapPin size={16} /> IBCS,Seminar hall SOA Campus 2 Near sum Hospital,Bhubaneswar
                 </span>
               </div>
 
