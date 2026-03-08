@@ -6,7 +6,6 @@ import logo from "@/assets/logo.jpeg";
 
 const navItems = [
   { label: "Home", to: "/" },
-  { label: "About Thakur", to: "/about" },
   { label: "Events", to: "/events" },
   
 ];
@@ -19,7 +18,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/90 backdrop-blur-md border-b border-saffron">
       <div className="container mx-auto px-4 flex items-center justify-between h-16 md:h-20">
         <Link to="/" className="flex items-center gap-2">
-          <img src={logo} alt="Satsang OUTR Logo" className="w-10 h-10 rounded-full object-cover" />
+          <img src={logo} alt="Satsang OUTR Logo" className="w-12 h-12 rounded-full object-cover" />
           <span className="font-heading text-lg md:text-xl font-semibold text-foreground">
             Satsang OUTR
           </span>
