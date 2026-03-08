@@ -99,7 +99,7 @@ const Footer = () => {
       {/* Bottom */}
       <div className="border-t border-background/10">
         <div className="container mx-auto px-4 py-4 text-center text-sm text-background/50">
-          © 2026 Satsang OUTR. All rights reserved.
+          © 2026 Satsang OUTR.
         </div>
       </div>
     </footer>
