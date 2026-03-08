@@ -50,7 +50,7 @@ const UpcomingEventCard = () => {
               <h3 className="font-heading text-2xl md:text-3xl font-bold">
                 🎓 Comprehensive Career Counselling Seminar
               </h3>
-              <p className="mt-2 opacity-90">SATSANG OUTR × Satsang Vihar Bhubaneswar</p>
+              <p className="mt-2 opacity-90">SATSANG OUTR × SATSANG VIHAR BHUBANESWAR</p>
             </div>
 
             <div className="p-4 md:p-6 space-y-4">
