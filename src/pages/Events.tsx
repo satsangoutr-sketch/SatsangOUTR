@@ -24,6 +24,16 @@ const Events = () => {
               🎓 Comprehensive Career Counselling Seminar
             </h3>
             <p className="text-center text-muted-foreground mb-8">SATSANG OUTR × SATSANG VIHAR BHUBANESWAR</p>
+            <div className="text-center mt-8">
+  <a
+    href="https://forms.gle/kRX4xs9tmu5XFSag9"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl bg-saffron-gradient text-primary-foreground font-semibold text-lg shadow-saffron hover:opacity-90 transition-opacity"
+  >
+    📋 Register Now
+  </a>
+</div>
 
             <div className="rounded-2xl border border-primary/20 bg-card shadow-lg overflow-hidden">
               <div className="overflow-x-auto">
@@ -102,26 +112,7 @@ const Events = () => {
               </div>
             </div>
 
-            {/* Top Register Button */}
-<div className="text-center mt-8">
-  <a
-    href="https://forms.gle/kRX4xs9tmu5XFSag9"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl bg-saffron-gradient text-primary-foreground font-semibold text-lg shadow-saffron hover:opacity-90 transition-opacity"
-  >
-    📋 Register Now
-  </a>
-</div>
-
-{/* Schedule Section */}
-<div className="mt-8">
-  <h2 className="text-2xl font-bold text-center">Event Schedule</h2>
-
-  {/* your schedule content */}
-</div>
-
-{/* Bottom Register Button */}
+            
 <div className="text-center mt-8">
   <a
     href="https://forms.gle/kRX4xs9tmu5XFSag9"
