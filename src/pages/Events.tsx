@@ -123,7 +123,7 @@ const Events = () => {
     📋 Register Now
   </a>
 </div>
-</div>
+
           </motion.div>
 
           {/* Past Events - Side by Side */}
