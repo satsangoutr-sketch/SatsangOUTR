@@ -23,7 +23,7 @@ const Events = () => {
             <h3 className="text-xl md:text-2xl font-semibold text-center text-foreground mb-2">
               🎓 Comprehensive Career Counselling Seminar
             </h3>
-            <p className="text-center text-muted-foreground mb-8">SATSANG OUTR × Satsang Vihar Bhubaneswar</p>
+            <p className="text-center text-muted-foreground mb-8">SATSANG OUTR × SATSANG VIHAR BHUBANESWAR</p>
 
             <div className="rounded-2xl border border-primary/20 bg-card shadow-lg overflow-hidden">
               <div className="overflow-x-auto">
