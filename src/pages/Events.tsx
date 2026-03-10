@@ -102,25 +102,40 @@ const Events = () => {
               </div>
             </div>
 
-             <div className="text mt-8">
-              <a
-                href="https://forms.gle/kRX4xs9tmu5XFSag9"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl bg-saffron-gradient text-primary-foreground font-semibold text-lg shadow-saffron hover:opacity-90 transition-opacity"
-              >
-                📋 Register Now
-              </a>
             <div className="text-center mt-8">
-              <a
-                href="https://forms.gle/kRX4xs9tmu5XFSag9"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl bg-saffron-gradient text-primary-foreground font-semibold text-lg shadow-saffron hover:opacity-90 transition-opacity"
-              >
-                📋 Register Now
-              </a>
-            </div>
+
+  {/* Top Register Button */}
+  <a
+    href="https://forms.gle/kRX4xs9tmu5XFSag9"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl bg-saffron-gradient text-primary-foreground font-semibold text-lg shadow-saffron hover:opacity-90 transition-opacity"
+  >
+    📋 Register Now
+  </a>
+
+</div>
+
+
+{/* Event Details Section */}
+<div className="mt-8">
+  {/* your event information here */}
+</div>
+
+
+<div className="text-center mt-8">
+
+  {/* Bottom Register Button */}
+  <a
+    href="https://forms.gle/kRX4xs9tmu5XFSag9"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl bg-saffron-gradient text-primary-foreground font-semibold text-lg shadow-saffron hover:opacity-90 transition-opacity"
+  >
+    📋 Register Now
+  </a>
+
+</div>
           </motion.div>
 
           {/* Past Events - Side by Side */}
