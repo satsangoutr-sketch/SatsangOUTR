@@ -57,12 +57,11 @@ const RegistrationDialog = () => {
                 <span> IBCS,Seminar hall SOA Campus 2 Near sum Hospital,Bhubaneswar</span>
               </div>
               <a
-                href="https://forms.gle/kRX4xs9tmu5XFSag9"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/Events"
+      
                 className="mt-2 inline-flex w-full items-center justify-center gap-2 px-5 py-2.5 rounded-lg bg-saffron-gradient text-primary-foreground font-medium shadow-saffron hover:opacity-90 transition-opacity text-sm"
               >
-                <ExternalLink size={14} /> Register Now
+                <ExternalLink size={14} /> View All Events
               </a>
             </div>
           </div>
