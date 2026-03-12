@@ -130,6 +130,7 @@ const Events = () => {
 
   </ul>
 </td>
+                  </tr> 
                   <tr className="bg-muted/20">
                     <td className="px-6 py-4 font-medium">
                       10:45 Am - 11:00 Am
