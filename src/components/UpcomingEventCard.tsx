@@ -18,8 +18,8 @@ const UpcomingEventCard = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="font-heading text-3xl md:text-4xl font-bold text-gradient-saffron text-centre mb-10">
-            Events 
+<h2 className="font-heading text-3xl md:text-6xl font-bold text-gradient-saffron text-center mb-10">            
+  Events 
           </h2>
 
           <motion.div
@@ -44,7 +44,7 @@ const UpcomingEventCard = () => {
             </div>
 
             <div className="bg-saffron-gradient p-4 md:p-6 text-primary-foreground">
-              <span className="inline-block px-3 py-1 rounded-full bg-background/20 text-sm font-medium mb-3">
+              <span className="inline-block px-3 py-1 rounded-full bg-White/20 text-sm font-medium mb-3">
                 🔴 Live 
               </span>
               <h3 className="font-heading text-2xl md:text-3xl font-bold">
