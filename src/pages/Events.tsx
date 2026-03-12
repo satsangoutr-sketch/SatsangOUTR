@@ -221,17 +221,25 @@ Professor, Dept .of Bioscience and Bioengineering, IIT Guwahati, & Adj.Prof. Jif
                 </div>
               </div>
                                   
-                 <div className="flex gap-6">
-                <div className="text-[#243447]-400 font-semibold w-32">
-                  1:00 PM – 01:45 PM
-                  <h3> className="text-white font-bold text-lg">
-                    LUNCH BREAK
-                  </h3>
-                </div> 
+                <div className="flex gap-6">
+  <div className="text-White-400 font-semibold w-32">
+    01:00 PM – 01:45 PM
+  </div>
+
+  <div className="bg-[#132a4d] p-5 rounded-lg border-r-4 border-orange-500 flex-1">
+    <h3 className="text-white font-bold text-lg">
+      Lunch Break
+    </h3>
+
+    <p className="text-gray-400 text-sm">
+      Take a break and enjoy a delicious lunch with great company.
+    </p>
+  </div>
+</div>
 
                 
                   <p className="text-gray-400 text-sm">
-                    Expert guidance with interactive Q&A
+                    Expert guidance with interactive Q&A Sessions
                   </p>
                 </div>
               </div>
