@@ -7,6 +7,7 @@ import logo from "@/assets/logo.jpeg";
 const navItems = [
   { label: "Home", to: "/" },
   { label: "Events", to: "/events" },
+   { label: "Schedule", to: "/Schedule" }
   
 ];
 
