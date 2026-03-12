@@ -107,11 +107,11 @@ const Events = () => {
 
           <td className="px-4 py-3">
             <ul className="list-disc list-inside space-y-1">
-              <li><strong>Welcome Address:</strong> Dr. Banabhari Mishra </li>
-               <td className="px-4 py-3 text-muted-foreground">
-            - Advisor of organising comitee (Senior consultant CVTS,SUMUM,BBSR)
-         
-              <li><strong>Theme Address:</strong> Dr. Batakrushna Tripathy</li>
+              <li><strong>Welcome Address:</strong> Dr. Banabhari Mishra
+                <span className="text-muted-foreground">
+        - Advisor of organising committee (Senior Consultant CVTS, SUMUM, BBSR)
+      </span> </li>
+                <li><strong>Theme Address:</strong> Dr. Batakrushna Tripathy</li>
               <li><strong>Mr. Surya Prakash Mahapatra</strong> – WIPRO</li>
               <li><strong>Dr. Sutanu Chakraborty</strong> – IIT Madras</li>
               <li><strong>Dr. Jubilee Purkayastha</strong> – INMAS DRDO</li>
@@ -121,8 +121,7 @@ const Events = () => {
             </ul>
           </td>
         </tr>
- </td>
-        </tr>
+
 
       
         <tr className="bg-muted/20">
