@@ -52,12 +52,13 @@ const Events = () => {
                       <td className="px-4 py-3 text-muted-foreground">Welcome of students and seminar overview.</td>
                     </tr>
                     <tr className="hover:bg-muted/50 transition-colors">
-                      <td className="px-4 py-3 whitespace-nowrap font-medium text-foreground align-top">10:00 – 11:00</td>
+                      <td className="px-4 py-3 whitespace-nowrap font-medium text-foreground align-top">10:00 – 10:15</td>
                       <td className="px-4 py-3 font-medium text-foreground align-top">Inaugural Session</td>
                       <td className="px-4 py-3 text-muted-foreground">
                         <ul className="list-disc list-inside space-y-1">
                           <li><strong className="text-foreground">Diya Prajwalan</strong></li>
                           <li>Theme song dedicated to young students</li>
+                          <td className="px-4 py-3 whitespace-nowrap font-medium text-foreground align-top">10:15 – 11:00</td>
                           <li><strong className="text-foreground">Welcome Address:</strong> Dr. Banabhari Mishra (MBBS, MS)</li>
                           <li><strong className="text-foreground">Theme Address:</strong> Dr. Batakrushna Tripathy, SOA University</li>
                           <li><strong className="text-foreground">Mr. Surya Prakash Mahapatra</strong> – Global Head, Talent Transformation, WIPRO</li>
