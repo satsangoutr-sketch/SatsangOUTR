@@ -1,283 +1,229 @@
-{/* EVENT PROGRAMME TAB */}
-
-<div className="rounded-2xl border border-primary/20 bg-card shadow-xl overflow-hidden">
-
-  {/* Header */}
-  <div className="bg-primary/10 px-6 py-4 border-b border-primary/20">
-    <h3 className="text-xl font-bold text-foreground">
-      📅 Programme Schedule
-    </h3>
-    <p className="text-sm text-muted-foreground">
-      SOA Campus II Convention Centre • 28 March 2026
-    </p>
-  </div>
-
-
-  <div className="divide-y">
-
-    {/* Registration */}
-    <div className="grid md:grid-cols-12 gap-4 px-6 py-5 hover:bg-muted/30 transition">
-      
-      <div className="md:col-span-2 font-semibold text-primary">
-        09:00 – 10:00
-      </div>
-
-      <div className="md:col-span-3 font-semibold">
-        Registration & Orientation
-      </div>
-
-      <div className="md:col-span-7 text-muted-foreground">
-        Welcome of students and seminar overview.
-      </div>
-
-    </div>
-
-
-    {/* Inaugural */}
-    <div className="grid md:grid-cols-12 gap-4 px-6 py-5 hover:bg-muted/30 transition">
-
-      <div className="md:col-span-2 font-semibold text-primary">
-        10:00 – 10:45
-      </div>
-
-      <div className="md:col-span-3 font-semibold">
-        Inaugural Session
-      </div>
-
-      <div className="md:col-span-7 text-muted-foreground space-y-1">
-
-        <p>🪔 Diya Prajwalan & Theme Song</p>
-
-        <p>
-          <strong>Welcome Address:</strong> Dr Banabhari Mishra
-        </p>
-
-        <p>
-          <strong>Theme Address:</strong> Dr Batakrushna Tripathy
-        </p>
-
-      </div>
-
-    </div>
-
-
-    {/* Tea Break */}
-    <div className="grid md:grid-cols-12 gap-4 px-6 py-5 bg-muted/20">
-
-      <div className="md:col-span-2 font-semibold text-primary">
-        10:45 – 11:00
-      </div>
-
-      <div className="md:col-span-3 font-semibold">
-        Tea Break
-      </div>
-
-      <div className="md:col-span-7 text-muted-foreground">
-        Networking & Refreshments
-      </div>
-
-    </div>
-
-
-    {/* Career Counselling */}
-    <div className="grid md:grid-cols-12 gap-4 px-6 py-5 hover:bg-muted/30 transition">
-
-      <div className="md:col-span-2 font-semibold text-primary">
-        11:00 – 1:00
-      </div>
-
-      <div className="md:col-span-3 font-semibold">
-        Career Counselling Sessions
-      </div>
-
-      <div className="md:col-span-7 text-muted-foreground">
-
-        <ul className="list-disc list-inside space-y-1">
-          <li>Dr. Sutanu Chakraborty – IIT Madras</li>
-          <li>Dr. Jubilee Purkayastha – INMAS DRDO</li>
-          <li>Mr. Surya Prakash Mahapatra – Wipro</li>
-          <li>Dr. Lingraj Sahoo – IIT Guwahati</li>
-        </ul>
-
-        <p className="mt-2 font-medium">
-          Interactive Q&A Session
-        </p>
-
-      </div>
-
-    </div>
-
-
-    {/* Lunch */}
-    <div className="grid md:grid-cols-12 gap-4 px-6 py-5 bg-muted/20">
-
-      <div className="md:col-span-2 font-semibold text-primary">
-        1:00 – 2:00
-      </div>
-
-      <div className="md:col-span-3 font-semibold">
-        Lunch Break
-      </div>
-
-      <div className="md:col-span-7 text-muted-foreground">
-        —
-      </div>
-
-    </div>
-
-
-    {/* Rhythm */}
-    <div className="grid md:grid-cols-12 gap-4 px-6 py-5 hover:bg-muted/30 transition">
-
-      <div className="md:col-span-2 font-semibold text-primary">
-        2:00 – 2:20
-      </div>
-
-      <div className="md:col-span-3 font-semibold">
-        Rhythm & Resonance
-      </div>
-
-      <div className="md:col-span-7 text-muted-foreground">
-        Musical reflection on purpose and career path.
-      </div>
-
-    </div>
-
-  </div>
-
-</div>
-
-
-
-{/* PLENARY SESSIONS */}
-
-<div className="mt-12">
-
-<h3 className="text-2xl font-bold text-center mb-8">
-  🎓 Domain Specific Plenary Sessions
-</h3>
-
-<div className="grid md:grid-cols-2 gap-6">
-
-
-<div className="rounded-xl border border-primary/20 p-6 bg-card shadow-lg">
-
-<h4 className="font-semibold text-lg mb-2">
-Civil, Staff & Defence Services
-</h4>
-
-<p className="text-sm text-muted-foreground mb-2">
-Moderator: Dr Jubilee Purkayastha
-</p>
-
-<ul className="text-sm space-y-1 text-muted-foreground list-disc list-inside">
-<li>Lt Raj Kumar Thakur</li>
-<li>Shantanu Singh (IFS)</li>
-<li>Pradyumna Mohapatra (IES)</li>
-<li>Dr Pravakar Mohanty</li>
-</ul>
-
-</div>
-
-
-<div className="rounded-xl border border-primary/20 p-6 bg-card shadow-lg">
-
-<h4 className="font-semibold text-lg mb-2">
-Higher Education & Research
-</h4>
-
-<p className="text-sm text-muted-foreground mb-2">
-Moderator: Dr Sutanu Chakraborty
-</p>
-
-<ul className="text-sm space-y-1 text-muted-foreground list-disc list-inside">
-<li>Dr Lingaraj Sahoo</li>
-<li>Abheek Ghosh (Oxford)</li>
-<li>Rishikeshan Pradhan (NISER)</li>
-<li>Sanchari Kundu (Virginia Tech)</li>
-</ul>
-
-</div>
-
-</div>
-</div>
-
-
-
-{/* COUNSELLING SESSIONS */}
-
-<div className="mt-14">
-
-<h3 className="text-2xl font-bold text-center mb-8">
-💬 One-to-One Career Counselling
-</h3>
-
-<div className="grid md:grid-cols-2 gap-6">
-
-
-<div className="rounded-xl border border-primary/20 p-6 bg-card shadow-lg">
-
-<h4 className="font-semibold mb-3">
-Civil Services Guidance
-</h4>
-
-<ul className="text-sm space-y-1 text-muted-foreground list-disc list-inside">
-<li>UPSC</li>
-<li>PCS</li>
-<li>SSC</li>
-<li>CDS</li>
-<li>OAS</li>
-</ul>
-
-</div>
-
-
-<div className="rounded-xl border border-primary/20 p-6 bg-card shadow-lg">
-
-<h4 className="font-semibold mb-3">
-Corporate & Management Careers
-</h4>
-
-<ul className="text-sm space-y-1 text-muted-foreground list-disc list-inside">
-<li>MBA Guidance</li>
-<li>Corporate Careers</li>
-<li>Entrepreneurship</li>
-<li>Engineering Industries</li>
-</ul>
-
-</div>
-
-
-<div className="rounded-xl border border-primary/20 p-6 bg-card shadow-lg">
-
-<h4 className="font-semibold mb-3">
-Higher Education & Research
-</h4>
-
-<ul className="text-sm space-y-1 text-muted-foreground list-disc list-inside">
-<li>PhD</li>
-<li>MPhil</li>
-<li>UGC-NET</li>
-<li>Research Fellowships</li>
-</ul>
-
-</div>
-
-
-<div className="rounded-xl border border-primary/20 p-6 bg-card shadow-lg">
-
-<h4 className="font-semibold mb-3">
-Agriculture & Technology
-</h4>
-
-<ul className="text-sm space-y-1 text-muted-foreground list-disc list-inside">
-<li>OUAT Guidance</li>
-<li>ICAR Careers</li>
-<li>Agriculture Research</li>
-</ul>
-
-</div>
-
-
-</div>
-</div>
+import { motion } from "framer-motion";
+import Layout from "@/components/Layout";
+
+const Events = () => {
+  return (
+    <Layout>
+      <section className="py-16 md:py-24 bg-cream min-h-[60vh]">
+        <div className="container mx-auto px-4 max-w-6xl">
+
+          {/* TITLE */}
+          <motion.div
+            className="text-center mb-12"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+          >
+            <h1 className="text-4xl font-bold text-gradient-saffron">
+              Career Counselling Seminar
+            </h1>
+            <p className="text-muted-foreground mt-2">
+              SATSANG OUTR × SATSANG VIHAR BHUBANESWAR
+            </p>
+          </motion.div>
+
+          {/* REGISTER BUTTON */}
+          <div className="text-center mb-10">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfHAY_jPzZibZcqvQRCHFgbsoCZAi-n0Ub69L4HrjqUpLQuVQ/viewform?usp=header"
+              target="_blank"
+              className="px-8 py-3 rounded-xl bg-saffron-gradient text-white font-semibold shadow-saffron hover:opacity-90"
+            >
+              📋 Register Now
+            </a>
+          </div>
+
+          {/* ===================== SCHEDULE ===================== */}
+
+          <motion.div
+            className="bg-white rounded-2xl shadow-lg border border-primary/20 mb-14"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+          >
+
+            <div className="p-6 border-b">
+              <h2 className="text-2xl font-bold text-primary">
+                Event Schedule
+              </h2>
+            </div>
+
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+
+                <thead className="bg-primary text-white">
+                  <tr>
+                    <th className="px-6 py-3 text-left">Time</th>
+                    <th className="px-6 py-3 text-left">Session</th>
+                    <th className="px-6 py-3 text-left">Details</th>
+                  </tr>
+                </thead>
+
+                <tbody className="divide-y">
+
+                  <tr className="hover:bg-muted/40">
+                    <td className="px-6 py-4 font-medium">
+                      09:00 – 10:00
+                    </td>
+                    <td className="px-6 py-4">
+                      Registration & Orientation
+                    </td>
+                    <td className="px-6 py-4 text-muted-foreground">
+                      Welcome of students and seminar overview
+                    </td>
+                  </tr>
+
+                  <tr className="hover:bg-muted/40">
+                    <td className="px-6 py-4 font-medium">
+                      10:00 – 10:15
+                    </td>
+                    <td className="px-6 py-4">
+                      Inaugural Session
+                    </td>
+                    <td className="px-6 py-4">
+                      Diya Prajwalan & Theme Song
+                    </td>
+                  </tr>
+
+                  <tr className="hover:bg-muted/40">
+                    <td className="px-6 py-4 font-medium">
+                      10:15 – 10:45
+                    </td>
+                    <td className="px-6 py-4">
+                      Speaker Addresses
+                    </td>
+                    <td className="px-6 py-4">
+                      Welcome Address & Theme Address
+                    </td>
+                  </tr>
+
+                  <tr className="bg-muted/20">
+                    <td className="px-6 py-4 font-medium">
+                      11:00 – 11:15
+                    </td>
+                    <td className="px-6 py-4">
+                      Tea Break
+                    </td>
+                    <td className="px-6 py-4 text-muted-foreground">
+                      Networking & Refreshments
+                    </td>
+                  </tr>
+
+                  <tr className="hover:bg-muted/40">
+                    <td className="px-6 py-4 font-medium">
+                      11:15 – 1:00
+                    </td>
+                    <td className="px-6 py-4">
+                      Career Counselling
+                    </td>
+                    <td className="px-6 py-4">
+                      Expert guidance with interactive Q&A
+                    </td>
+                  </tr>
+
+                  <tr className="bg-muted/20">
+                    <td className="px-6 py-4 font-medium">
+                      1:00 – 2:00
+                    </td>
+                    <td className="px-6 py-4">
+                      Lunch Break
+                    </td>
+                    <td className="px-6 py-4 text-muted-foreground">
+                      —
+                    </td>
+                  </tr>
+
+                  <tr className="hover:bg-muted/40">
+                    <td className="px-6 py-4 font-medium">
+                      2:00 – 2:20
+                    </td>
+                    <td className="px-6 py-4">
+                      Rhythm & Resonance
+                    </td>
+                    <td className="px-6 py-4">
+                      Harmony in Life, Purpose and Career
+                    </td>
+                  </tr>
+
+                  <tr className="hover:bg-muted/40">
+                    <td className="px-6 py-4 font-medium">
+                      2:20 – 3:50
+                    </td>
+                    <td className="px-6 py-4">
+                      Plenary Sessions
+                    </td>
+                    <td className="px-6 py-4">
+                      Domain specific expert talks
+                    </td>
+                  </tr>
+
+                  <tr className="hover:bg-muted/40">
+                    <td className="px-6 py-4 font-medium">
+                      3:50 – 4:00
+                    </td>
+                    <td className="px-6 py-4">
+                      Valedictory
+                    </td>
+                    <td className="px-6 py-4">
+                      Certificates & Vote of Thanks
+                    </td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+          </motion.div>
+
+          {/* ===================== PLENARY SESSION ===================== */}
+
+          <motion.div
+            className="bg-white rounded-2xl shadow-lg border border-primary/20 mb-14"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+          >
+            <div className="p-6 border-b">
+              <h2 className="text-2xl font-bold text-primary">
+                Plenary Session Speakers
+              </h2>
+            </div>
+
+            <div className="p-6 grid md:grid-cols-2 gap-4 text-sm">
+
+              <div>Dr. Sutanu Chakraborty – IIT Madras</div>
+              <div>Dr. Jubilee Purkayastha – INMAS DRDO</div>
+              <div>Mr. Surya Prakash Mahapatra – WIPRO</div>
+              <div>Dr. Lingraj Sahoo – IIT Guwahati</div>
+
+            </div>
+          </motion.div>
+
+          {/* ===================== COUNSELLING ===================== */}
+
+          <motion.div
+            className="bg-white rounded-2xl shadow-lg border border-primary/20"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+          >
+
+            <div className="p-6 border-b">
+              <h2 className="text-2xl font-bold text-primary">
+                Career Counselling Panel
+              </h2>
+            </div>
+
+            <div className="p-6 grid md:grid-cols-2 gap-4 text-sm">
+
+              <div>Dr. Batakrushna Tripathy</div>
+              <div>Dr. Banabhari Mishra</div>
+              <div>Mr. Kalinga Keshari Rath</div>
+              <div>Dr. Pravakar Mohanty – DST Govt of India</div>
+
+            </div>
+
+          </motion.div>
+
+        </div>
+      </section>
+    </Layout>
+  );
+};
+
+export default Events;
