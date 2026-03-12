@@ -4,7 +4,7 @@ import Layout from "@/components/Layout";
 const Events = () => {
   return (
     <Layout>
-      <section className="py-16 md:py-24 bg-White min-h-screen">
+      <section className="py-16 md:py-24 bg-[#87CEEB] min-h-screen">
         <div className="max-w-5xl mx-auto px-4">
 
           {/* TITLE */}
