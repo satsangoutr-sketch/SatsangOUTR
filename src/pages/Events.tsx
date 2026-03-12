@@ -127,7 +127,7 @@ const Events = () => {
         Scientist & Joint Director, INMAS DRDO, Ministry of Defence, Govt. of India
       </span>
     </li>
-
+  </tr>
   </ul>
 </td>
 
