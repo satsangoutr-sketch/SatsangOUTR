@@ -9,7 +9,7 @@ const photos = [seminarGroup, seminarInteraction, seminarPresentation];
 
 const UpcomingEventCard = () => {
   return (
-    <section className="py-20 bg-[#0b1e3a]">
+    <section className="py-20 bg-[#243447]">
       <div className="container mx-auto px-4">
         <motion.div
           className="max-w-4xl mx-auto"
@@ -18,12 +18,12 @@ const UpcomingEventCard = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="font-heading text-3xl md:text-4xl font-bold text-gradient-saffron mb-10">
+          <h2 className="font-heading text-3xl md:text-4xl font-bold text-gradient-saffron text-centre mb-10">
             Events 
           </h2>
 
           <motion.div
-            className="rounded-2xl overflow-hidden border border-primary/20 bg-card shadow-lg"
+            className="rounded-2xl overflow-hidden border border-primary/20 bg[-#0b1e3a] shadow-lg"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
