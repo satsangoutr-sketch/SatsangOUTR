@@ -32,7 +32,7 @@ const Events = () => {
             </a>
           </div>
 
-          {/* ===================== SCHEDULE ===================== */}
+          
 
           <motion.div
             className="bg-white rounded-2xl shadow-lg border border-primary/20 mb-14"
@@ -90,14 +90,37 @@ const Events = () => {
                     <td className="px-6 py-4">
                       Speaker Addresses
                     </td>
-                    <td className="px-6 py-4">
-                      Welcome Address & Theme Address
+                   <td className="px-4 py-3">
+  <ul className="list-disc list-inside space-y-1">
+    <li>
+      <strong>Welcome Address:</strong> Dr. Banabhari Mishra
+     <span className="block text-muted-foreground text-sm">
+        - Advisor of organising committee (Senior Consultant CVTS, SUMUM, BBSR)
+      </span>
+    </li>
+
+    <li><strong>Theme Address:</strong> Dr. Batakrushna Tripathy
+    <span className="block text-muted-foreground text-sm">
+        - Asst. Professor,SOA University
+      </span></li>
+    <li><strong> Guest Speaker Mr. Surya Prakash Mahapatra</strong> <span className="block text-muted-foreground text-sm">
+        - Chairman,SOA 
+      </span></li>
+    <li><strong>Guest of Honour: Bibhuti Bhusan Biswal <span className="block text-muted-foreground text-sm">
+       Vice Chancellor,OUTR
+      </span>
+    <li><strong>VOTE OF THANKS Dr. Jubilee Purkayastha</strong> <span className="block text-muted-foreground text-sm">
+        - Scientist  & Joint Director, INMAS DRDO ,Ministry of Defence, Govt. of India
+      </span></li>
+   
+  </ul>
+</td>
                     </td>
                   </tr>
 
                   <tr className="bg-muted/20">
                     <td className="px-6 py-4 font-medium">
-                      11:00 – 11:15
+                      10:45 Am - 11:00 Am
                     </td>
                     <td className="px-6 py-4">
                       Tea Break
