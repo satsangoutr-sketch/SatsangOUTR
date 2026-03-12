@@ -24,7 +24,7 @@ const Events = () => {
               🎓 Comprehensive Career Counselling Seminar
             </h3>
             <p className="text-center text-muted-foreground mb-8">SATSANG OUTR × SATSANG VIHAR BHUBANESWAR</p>
-            <div className="text-center mt-10">
+            <div className="text-center mt-8 mb-8">
   <a
     href="https://docs.google.com/forms/d/e/1FAIpQLSfHAY_jPzZibZcqvQRCHFgbsoCZAi-n0Ub69L4HrjqUpLQuVQ/viewform?usp=header"
     target="_blank"
