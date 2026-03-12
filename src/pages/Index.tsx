@@ -70,7 +70,7 @@ const Index = () => {
             <motion.h1
               custom={0}
               variants={fadeUp}
-              className="font-heading text-4xl md:text-6xl font-bold text-[#0b1e3a] mb-6"
+              className="font-heading text-4xl md:text-6xl font-bold text-black mb-6"
             >
               Satsang –{" "}
               <span className="text-gradient-saffron">
@@ -81,7 +81,7 @@ const Index = () => {
             <motion.p
               custom={1}
               variants={fadeUp}
-              className="text-lg md:text-xl text-[#0b1e3a] leading-relaxed mb-10"
+              className="text-lg md:text-xl text-black leading-relaxed mb-10"
             >
               A socio-cultural and philanthropic institution dedicated to
               character building, spiritual awakening, and collective
@@ -104,7 +104,7 @@ const Index = () => {
                 href="https://www.satsang.org.in/home"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-8 py-3 rounded-lg bg-white text-[#0b1e3a] font-medium hover:opacity-90 transition-opacity"
+                className="px-8 py-3 rounded-lg bg-white text-black font-medium hover:opacity-90 transition-opacity"
               >
                 Visit Official Website
               </a>
@@ -140,40 +140,40 @@ const Index = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="font-heading text-3xl md:text-4xl font-bold text-center mb-4 text-[#0b1e3a]">
+            <h2 className="font-heading text-3xl md:text-4xl font-bold text-center mb-4 text-black">
               OUR <span className="text-gradient-saffron">PHILOSOPHY</span>
             </h2>
 
-            <h3 className="font-heading text-2xl text-center text-[#0b1e3a] mb-8">
+            <h3 className="font-heading text-2xl text-center text-black mb-8">
               Being and Becoming
             </h3>
 
             <div className="max-w-3xl mx-auto space-y-6">
-              <p className="text-[#0b1e3a] text-lg leading-relaxed text-center">
+              <p className="text-black text-lg leading-relaxed text-center">
                 The ideology of Satsang is a comprehensive, life-centric
                 philosophy focusing on the balanced development of the
                 individual mentally and spiritually, physically.
               </p>
 
               <blockquote className="border-l-4 border-orange-400 pl-6 py-2">
-                <p className="font-heading text-xl italic text-[#0b1e3a]">
+                <p className="font-heading text-xl italic text-black">
                   "To uphold one's life and growth with that of others is
                   Dharma."
                 </p>
 
-                <cite className="text-[#0b1e3a] text-sm mt-2 block">
+                <cite className="text-black text-sm mt-2 block">
                   — Sree Sree Thakur Anukulchandra, Satyanusaran
                 </cite>
               </blockquote>
 
-              <p className="text-[#0b1e3a] text-lg leading-relaxed text-center">
+              <p className="text-black text-lg leading-relaxed text-center">
                 Centered around the Living Ideal, we practice Yajan
                 (Self-adjustment), Yaajan (Nurturing others), and Ishtabhriti
                 (Daily love-offering) to transform negative passions into
                 constructive energy for universal well-being.
               </p>
 
-              <p className="text-[#0b1e3a] text-lg leading-relaxed text-center font-medium">
+              <p className="text-black text-lg leading-relaxed text-center font-medium">
                 Satsang Vihar New Delhi is an integral branch, completely
                 attached and dedicated to the spiritual lineage and
                 administrative guidance of Satsang Ashram, Deoghar.
@@ -193,11 +193,11 @@ const Index = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="font-heading text-3xl md:text-4xl font-bold mb-8 text-[#0b1e3a]">
+            <h2 className="font-heading text-3xl md:text-4xl font-bold mb-8 text-black">
               Our <span className="text-gradient-saffron">Mission</span>
             </h2>
 
-            <p className="text-[#0b1e3a] text-lg leading-relaxed">
+            <p className="text-black text-lg leading-relaxed">
               "Do never die, nor cause death; but resist death to death." This
               website introduces you to the man who roared out this extreme
               optimism against a backdrop of extreme violence and sadness
