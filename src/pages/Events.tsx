@@ -90,33 +90,46 @@ const Events = () => {
                     <td className="px-6 py-4">
                       Speaker Addresses
                     </td>
-                   <td className="px-4 py-3">
-  <ul className="list-disc list-inside space-y-1">
+           <td className="px-4 py-3">
+  <ul className="list-disc list-inside space-y-2">
+
     <li>
       <strong>Welcome Address:</strong> Dr. Banabhari Mishra
-     <span className="block text-muted-foreground text-sm">
-        - Advisor of organising committee (Senior Consultant CVTS, SUMUM, BBSR)
+      <span className="block text-muted-foreground text-sm">
+        Advisor of Organising Committee (Senior Consultant CVTS, SUMUM, BBSR)
       </span>
     </li>
 
-    <li><strong>Theme Address:</strong> Dr. Batakrushna Tripathy
-    <span className="block text-muted-foreground text-sm">
-        - Asst. Professor,SOA University
-      </span></li>
-    <li><strong> Guest Speaker Mr. Surya Prakash Mahapatra</strong> <span className="block text-muted-foreground text-sm">
-        - Chairman,SOA 
-      </span></li>
-    <li><strong>Guest of Honour: Bibhuti Bhusan Biswal <span className="block text-muted-foreground text-sm">
-       Vice Chancellor,OUTR
+    <li>
+      <strong>Theme Address:</strong> Dr. Batakrushna Tripathy
+      <span className="block text-muted-foreground text-sm">
+        Asst. Professor, SOA University
       </span>
-    <li><strong>VOTE OF THANKS Dr. Jubilee Purkayastha</strong> <span className="block text-muted-foreground text-sm">
-        - Scientist  & Joint Director, INMAS DRDO ,Ministry of Defence, Govt. of India
-      </span></li>
-   
+    </li>
+
+    <li>
+      <strong>Guest Speaker:</strong> Mr. Surya Prakash Mahapatra
+      <span className="block text-muted-foreground text-sm">
+        Chairman, SOA
+      </span>
+    </li>
+
+    <li>
+      <strong>Guest of Honour:</strong> Bibhuti Bhusan Biswal
+      <span className="block text-muted-foreground text-sm">
+        Vice Chancellor, OUTR
+      </span>
+    </li>
+
+    <li>
+      <strong>Vote of Thanks:</strong> Dr. Jubilee Purkayastha
+      <span className="block text-muted-foreground text-sm">
+        Scientist & Joint Director, INMAS DRDO, Ministry of Defence, Govt. of India
+      </span>
+    </li>
+
   </ul>
 </td>
-                    </td>
-                  </tr>
 
                   <tr className="bg-muted/20">
                     <td className="px-6 py-4 font-medium">
