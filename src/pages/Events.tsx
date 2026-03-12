@@ -36,43 +36,70 @@ const Events = () => {
 </div>
 
             <div className="rounded-2xl border border-primary/20 bg-card shadow-lg overflow-hidden">
-              <div className="overflow-x-auto">
-                <table className="w-full text-left text-sm">
-                  <thead>
-                    <tr className="bg-primary text-primary-foreground">
-                      <th className="px-4 py-3 font-semibold whitespace-nowrap">Time</th>
-                      <th className="px-4 py-3 font-semibold">Session / Activity</th>
-                      <th className="px-4 py-3 font-semibold">Details & Speakers</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-border">
-                    <tr className="hover:bg-muted/50 transition-colors">
-                      <td className="px-4 py-3 whitespace-nowrap font-medium text-foreground align-top">09:00 – 10:00</td>
-                      <td className="px-4 py-3 font-medium text-foreground align-top">Registration & Orientation</td>
-                      <td className="px-4 py-3 text-muted-foreground">Welcome of students and seminar overview.</td>
-                    </tr>
-                    <tr className="hover:bg-muted/50 transition-colors">
-                      <td className="px-4 py-3 whitespace-nowrap font-medium text-foreground align-top">10:00 – 10:15</td>
-                      <td className="px-4 py-3 font-medium text-foreground align-top">Inaugural Session</td>
-                      <td className="px-4 py-3 text-muted-foreground"></td>
-                    
-                        <ul className="list-disc list-inside space-y-1"> 
-                          <li><strong className="text-foreground">Diya Prajwalan</strong></li>
-                        </tr>
-                          <li>Theme song dedicated to young students</li>
-                          <tr className="hover:bg-muted/50 transition-colors">
-                          <td className="px-4 py-3 whitespace-nowrap font-medium text-foreground align-top">10:15 – 11:00</td>
-                          <li><strong className="text-foreground">Welcome Address:</strong> Dr. Banabhari Mishra (MBBS, MS)</li>
-                          <li><strong className="text-foreground">Theme Address:</strong> Dr. Batakrushna Tripathy, SOA University</li>
-                          <li><strong className="text-foreground">Mr. Surya Prakash Mahapatra</strong> – Global Head, Talent Transformation, WIPRO</li>
-                          <li><strong className="text-foreground">Dr. Sutanu Chakraborty</strong> – Prof, CSE, IIT Madras</li>
-                          <li><strong className="text-foreground">Dr. Jubilee Purkayastha</strong> – Scientist F, INMAS DRDO</li>
-                          <li><strong className="text-foreground">Dr. Lingraj Sahoo</strong> – Prof, Biotechnology, IIT Guwahati</li>
-                          <li><strong className="text-foreground">Mr. Kalinga Keshari Rath</strong> – MD, EVOS buildcon</li>
-                          <li><strong className="text-foreground">Dr. Pravakar Mohanty</strong> – Scientist E, DST Govt of India</li>
-                        </ul>
-                      </td>
-                    </tr>
+  <div className="overflow-x-auto">
+    <table className="w-full text-left text-sm">
+      <thead>
+        <tr className="bg-primary text-primary-foreground">
+          <th className="px-4 py-3 font-semibold whitespace-nowrap">Time</th>
+          <th className="px-4 py-3 font-semibold">Session / Activity</th>
+          <th className="px-4 py-3 font-semibold">Details & Speakers</th>
+        </tr>
+      </thead>
+
+      <tbody className="divide-y divide-border">
+
+        <tr className="hover:bg-muted/50 transition-colors">
+          <td className="px-4 py-3 whitespace-nowrap font-medium text-foreground align-top">
+            09:00 – 10:00
+          </td>
+          <td className="px-4 py-3 font-medium text-foreground align-top">
+            Registration & Orientation
+          </td>
+          <td className="px-4 py-3 text-muted-foreground">
+            Welcome of students and seminar overview.
+          </td>
+        </tr>
+
+        <tr className="hover:bg-muted/50 transition-colors">
+          <td className="px-4 py-3 whitespace-nowrap font-medium text-foreground align-top">
+            10:00 – 10:15
+          </td>
+          <td className="px-4 py-3 font-medium text-foreground align-top">
+            Inaugural Session
+          </td>
+          <td className="px-4 py-3 text-muted-foreground">
+            <ul className="list-disc list-inside space-y-1">
+              <li><strong className="text-foreground">Diya Prajwalan</strong></li>
+              <li>Theme song dedicated to young students</li>
+            </ul>
+          </td>
+        </tr>
+
+        <tr className="hover:bg-muted/50 transition-colors">
+          <td className="px-4 py-3 whitespace-nowrap font-medium text-foreground align-top">
+            10:15 – 11:00
+          </td>
+          <td className="px-4 py-3 font-medium text-foreground align-top">
+            Address by Speakers
+          </td>
+          <td className="px-4 py-3 text-muted-foreground">
+            <ul className="list-disc list-inside space-y-1">
+              <li><strong className="text-foreground">Welcome Address:</strong> Dr. Banabhari Mishra (MBBS, MS)</li>
+              <li><strong className="text-foreground">Theme Address:</strong> Dr. Batakrushna Tripathy, SOA University</li>
+              <li><strong className="text-foreground">Mr. Surya Prakash Mahapatra</strong> – Global Head, Talent Transformation, WIPRO</li>
+              <li><strong className="text-foreground">Dr. Sutanu Chakraborty</strong> – Prof, CSE, IIT Madras</li>
+              <li><strong className="text-foreground">Dr. Jubilee Purkayastha</strong> – Scientist F, INMAS DRDO</li>
+              <li><strong className="text-foreground">Dr. Lingraj Sahoo</strong> – Prof, Biotechnology, IIT Guwahati</li>
+              <li><strong className="text-foreground">Mr. Kalinga Keshari Rath</strong> – MD, EVOS Buildcon</li>
+              <li><strong className="text-foreground">Dr. Pravakar Mohanty</strong> – Scientist E, DST Govt of India</li>
+            </ul>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+</div>
                     <tr className="bg-muted/30">
                       <td className="px-4 py-3 whitespace-nowrap font-medium text-foreground align-top">11:00 – 11:15</td>
                       <td className="px-4 py-3 font-medium text-foreground align-top">TEA BREAK</td>
