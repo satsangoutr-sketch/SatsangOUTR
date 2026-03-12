@@ -28,12 +28,15 @@ const Index = () => {
       <RegistrationDialog />
 
       {/* Scrolling Photo Gallery */}
-      <section className="relative overflow-hidden bg-foreground py-3">
+      <section className="relative overflow-hidden bg-[#243447] py-3">
         <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
-          <h2 className="font-heading text-4xl md:text-7xl font-bold text-primary-foreground drop-shadow-[0_4px_20px_rgba(0,0,0,0.7)] tracking-wider">
-          </h2>
+          <h2 className="font-heading text-4xl md:text-7xl font-bold text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.7)] tracking-wider"></h2>
         </div>
-        <div className="flex animate-scroll-left w-max will-change-transform" style={{ backfaceVisibility: 'hidden' }}>
+
+        <div
+          className="flex animate-scroll-left w-max will-change-transform"
+          style={{ backfaceVisibility: "hidden" }}
+        >
           {[...scrollImages, ...scrollImages].map((img, i) => (
             <img
               key={i}
@@ -47,12 +50,17 @@ const Index = () => {
       </section>
 
       {/* Hero */}
-      <section className="relative bg-cream overflow-hidden">
+      <section className="relative bg-[#243447] overflow-hidden">
         <div className="absolute inset-0 opacity-5">
-          <div className="absolute inset-0" style={{
-            backgroundImage: "radial-gradient(circle at 30% 50%, hsl(200 70% 55% / 0.15), transparent 60%), radial-gradient(circle at 70% 30%, hsl(200 60% 45% / 0.1), transparent 50%)"
-          }} />
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage:
+                "radial-gradient(circle at 30% 50%, hsl(200 70% 55% / 0.15), transparent 60%), radial-gradient(circle at 70% 30%, hsl(200 60% 45% / 0.1), transparent 50%)",
+            }}
+          />
         </div>
+
         <div className="container mx-auto px-4 py-20 md:py-32 relative z-10">
           <motion.div
             className="max-w-3xl mx-auto text-center"
@@ -62,18 +70,22 @@ const Index = () => {
             <motion.h1
               custom={0}
               variants={fadeUp}
-              className="font-heading text-4xl md:text-6xl font-bold text-foreground mb-6"
+              className="font-heading text-4xl md:text-6xl font-bold text-[#0b1e3a] mb-6"
             >
               Satsang –{" "}
-              <span className="text-gradient-saffron">A Man Making Movement</span>
+              <span className="text-gradient-saffron">
+                A Man Making Movement
+              </span>
             </motion.h1>
+
             <motion.p
               custom={1}
               variants={fadeUp}
-              className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-10"
+              className="text-lg md:text-xl text-[#0b1e3a] leading-relaxed mb-10"
             >
-              A socio-cultural and philanthropic institution dedicated to character building,
-              spiritual awakening, and collective upliftment.
+              A socio-cultural and philanthropic institution dedicated to
+              character building, spiritual awakening, and collective
+              upliftment.
             </motion.p>
 
             <motion.div
@@ -83,15 +95,16 @@ const Index = () => {
             >
               <Link
                 to="/about"
-                className="px-8 py-3 rounded-lg bg-saffron-gradient text-primary-foreground font-medium shadow-saffron hover:opacity-90 transition-opacity"
+                className="px-8 py-3 rounded-lg bg-saffron-gradient text-white font-medium shadow-saffron hover:opacity-90 transition-opacity"
               >
                 Learn More
               </Link>
+
               <a
                 href="https://www.satsang.org.in/home"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-8 py-3 rounded-lg bg-foreground text-background font-medium hover:opacity-90 transition-opacity"
+                className="px-8 py-3 rounded-lg bg-white text-[#0b1e3a] font-medium hover:opacity-90 transition-opacity"
               >
                 Visit Official Website
               </a>
@@ -100,8 +113,8 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Last photo below official website button area */}
-      <section className="bg-cream">
+      {/* Last Photo */}
+      <section className="bg-[#243447]">
         <div className="container mx-auto px-4 pb-12">
           <div className="max-w-2xl mx-auto rounded-xl overflow-hidden shadow-lg">
             <img
@@ -118,7 +131,7 @@ const Index = () => {
       <UpcomingEventCard />
 
       {/* Our Philosophy */}
-      <section className="py-20 bg-cream">
+      <section className="py-20 bg-[#243447]">
         <div className="container mx-auto px-4">
           <motion.div
             className="max-w-4xl mx-auto"
@@ -127,29 +140,43 @@ const Index = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="font-heading text-3xl md:text-4xl font-bold text-center mb-4">
+            <h2 className="font-heading text-3xl md:text-4xl font-bold text-center mb-4 text-[#0b1e3a]">
               OUR <span className="text-gradient-saffron">PHILOSOPHY</span>
             </h2>
-            <h3 className="font-heading text-2xl text-center text-foreground mb-8">
+
+            <h3 className="font-heading text-2xl text-center text-[#0b1e3a] mb-8">
               Being and Becoming
             </h3>
+
             <div className="max-w-3xl mx-auto space-y-6">
-              <p className="text-muted-foreground text-lg leading-relaxed text-center">
-                The ideology of Satsang is a comprehensive, life-centric philosophy focusing on the balanced development of the individual mentally and spiritually, physically.
+              <p className="text-[#0b1e3a] text-lg leading-relaxed text-center">
+                The ideology of Satsang is a comprehensive, life-centric
+                philosophy focusing on the balanced development of the
+                individual mentally and spiritually, physically.
               </p>
-              <blockquote className="border-l-4 border-primary pl-6 py-2">
-                <p className="font-heading text-xl italic text-foreground">
-                  "To uphold one's life and growth with that of others is Dharma."
+
+              <blockquote className="border-l-4 border-orange-400 pl-6 py-2">
+                <p className="font-heading text-xl italic text-[#0b1e3a]">
+                  "To uphold one's life and growth with that of others is
+                  Dharma."
                 </p>
-                <cite className="text-muted-foreground text-sm mt-2 block">
+
+                <cite className="text-[#0b1e3a] text-sm mt-2 block">
                   — Sree Sree Thakur Anukulchandra, Satyanusaran
                 </cite>
               </blockquote>
-              <p className="text-muted-foreground text-lg leading-relaxed text-center">
-                Centered around the Living Ideal, we practice Yajan (Self-adjustment), Yaajan (Nurturing others), and Ishtabhriti (Daily love-offering) to transform negative passions into constructive energy for universal well-being.
+
+              <p className="text-[#0b1e3a] text-lg leading-relaxed text-center">
+                Centered around the Living Ideal, we practice Yajan
+                (Self-adjustment), Yaajan (Nurturing others), and Ishtabhriti
+                (Daily love-offering) to transform negative passions into
+                constructive energy for universal well-being.
               </p>
-              <p className="text-muted-foreground text-lg leading-relaxed text-center font-medium">
-                Satsang Vihar New Delhi is an integral branch, completely attached and dedicated to the spiritual lineage and administrative guidance of Satsang Ashram, Deoghar.
+
+              <p className="text-[#0b1e3a] text-lg leading-relaxed text-center font-medium">
+                Satsang Vihar New Delhi is an integral branch, completely
+                attached and dedicated to the spiritual lineage and
+                administrative guidance of Satsang Ashram, Deoghar.
               </p>
             </div>
           </motion.div>
@@ -157,7 +184,7 @@ const Index = () => {
       </section>
 
       {/* Our Mission */}
-      <section className="py-20 bg-background">
+      <section className="py-20 bg-[#243447]">
         <div className="container mx-auto px-4">
           <motion.div
             className="max-w-3xl mx-auto text-center"
@@ -166,16 +193,22 @@ const Index = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="font-heading text-3xl md:text-4xl font-bold mb-8">
+            <h2 className="font-heading text-3xl md:text-4xl font-bold mb-8 text-[#0b1e3a]">
               Our <span className="text-gradient-saffron">Mission</span>
             </h2>
-            <p className="text-muted-foreground text-lg leading-relaxed">
-              "Do never die, nor cause death; but resist death to death." This website introduces you to the man who roared out this extreme optimism against a backdrop of extreme violence and sadness devouring the world. He is SREE SREE THAKUR ANUKULCHANDRA, Fulfiller the Best of the age, whose clarion call to resist death, of all sorts, physical and spiritual, has rejuvenated innumerable dwindling souls and awakened umpteenth slumbering minds. He, with His life and sayings, with His own conduct and steps, has shown with great care and love how to enjoy life, live it to the full, with all its fine scents and colours and get rid of the weeds in our character that threaten to spoil all joy and suffocate the vitality before time.
+
+            <p className="text-[#0b1e3a] text-lg leading-relaxed">
+              "Do never die, nor cause death; but resist death to death." This
+              website introduces you to the man who roared out this extreme
+              optimism against a backdrop of extreme violence and sadness
+              devouring the world. He is SREE SREE THAKUR ANUKULCHANDRA,
+              Fulfiller the Best of the age, whose clarion call to resist death,
+              of all sorts, physical and spiritual, has rejuvenated innumerable
+              dwindling souls and awakened umpteenth slumbering minds.
             </p>
           </motion.div>
         </div>
       </section>
-
     </Layout>
   );
 };
