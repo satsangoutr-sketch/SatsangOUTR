@@ -70,7 +70,7 @@ const Index = () => {
             <motion.h1
               custom={0}
               variants={fadeUp}
-              className="font-heading text-4xl md:text-6xl font-bold text-text-gradient-saffron mb-6"
+              className="font-heading text-4xl md:text-6xl font-bold text-gradient-saffron mb-6"
             >
               Satsang –{" "}
               <span className="text-gradient-saffron">
@@ -140,7 +140,7 @@ const Index = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="font-heading text-3xl md:text-4xl font-bold text-center mb-4 text-black">
+            <h2 className="font-heading text-3xl md:text-4xl font-bold text-center mb-4 text-gradient-saffron">
               OUR <span className="text-gradient-saffron">PHILOSOPHY</span>
             </h2>
 
@@ -193,7 +193,7 @@ const Index = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="font-heading text-3xl md:text-4xl font-bold mb-8 text-black">
+            <h2 className="font-heading text-3xl md:text-4xl font-bold mb-8 text-gradient-saffron">
               Our <span className="text-gradient-saffron">Mission</span>
             </h2>
 
