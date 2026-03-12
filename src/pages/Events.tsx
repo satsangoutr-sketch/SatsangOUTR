@@ -28,7 +28,7 @@ const Events = () => {
               href="https://docs.google.com/forms/d/e/1FAIpQLSfHAY_jPzZibZcqvQRCHFgbsoCZAi-n0Ub69L4HrjqUpLQuVQ/viewform"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-8 py-3 bg-[#0b1e3a]-500 hover:bg-[#0b1e3a]-600 text-white font-semibold rounded-lg transition"
+              className="px-8 py-3 bg-[#0b1e3a] hover:bg-[#0b1e3a] text-white font-semibold rounded-lg transition"
             >
               Register Now
             </a>
@@ -45,11 +45,11 @@ const Events = () => {
 
               {/* SESSION 1 */}
               <div className="flex gap-6">
-                <div className="text-[#243447]-400 font-semibold w-32">
+                <div className="text-[#243447]font-semibold w-32">
                   09:00 – 10:00
                 </div>
 
-                <div className="bg-[#132a4d] p-5 rounded-lg border-r-4 border-orange-500 flex-1">
+                <div className="bg-[#132a4d] p-5 rounded-lg border-r-4 border-[#0b1e3a] flex-1">
                   <h3 className="text-white font-bold text-lg">
                     Registration & Orientation
                   </h3>
@@ -62,7 +62,7 @@ const Events = () => {
 
               {/* SESSION 2 */}
               <div className="flex gap-6">
-                <div className="text-[#243447]-400 font-semibold w-32">
+                <div className="text-[#243447] font-semibold w-32">
                   10:00 – 10:15
                 </div>
 
@@ -79,7 +79,7 @@ const Events = () => {
 
               {/* SESSION 3 */}
               <div className="flex gap-6">
-                <div className="text-[#243447]-400 font-semibold w-32">
+                <div className="text-[#243447] font-semibold w-32">
                   10:15 – 10:45
                 </div>
 
@@ -139,7 +139,7 @@ const Events = () => {
 
               {/* SESSION 4 */}
               <div className="flex gap-6">
-                <div className="text-[#243447]-400 font-semibold w-32">
+                <div className="text-[#243447] font-semibold w-32">
                   10:45 AM – 11:00 AM
                 </div>
 
@@ -156,10 +156,10 @@ const Events = () => {
 
               {/* SESSION 5 */}
               <div className="flex gap-6">
-                <div className="text-[#243447]-400 font-semibold w-32">
+                <div className="text-[#243447] font-semibold w-32">
                   11:00 AM – 01:00 AM
                 </div> 
-                                <div className="bg-[#132a4d] p-5 rounded-lg border-r-4 border-[#243447]-500 flex-1">
+                                <div className="bg-[#132a4d] p-5 rounded-lg border-r-4 border-[#243447] flex-1">
                   <h3 className="text-white font-bold text-lg">
                     Career Counselling Session
                   </h3>
@@ -181,7 +181,7 @@ const Events = () => {
                     </li>
 
                     <li>
-                      <
+                      
                       Mr. Surya Prakash Mahapatra
                       <div className="text-gray-400 text-xs">
                        Global Head Talent Transformation, Wipro Ltd.
@@ -224,7 +224,7 @@ Professor, Dept .of Bioscience and Bioengineering, IIT Guwahati, & Adj.Prof. Jif
                  <div className="flex gap-6">
                 <div className="text-[#243447]-400 font-semibold w-32">
                   1:00 PM – 01:45 PM
-                  <h3 className="text-white font-bold text-lg">
+                  <h3> className="text-white font-bold text-lg">
                     LUNCH BREAK
                   </h3>
                 </div> 
