@@ -1,10 +1,11 @@
+
 import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
 
 const Events = () => {
   return (
     <Layout>
-      <section className="py-16 md:py-24 bg-cream min-h-[60vh]">
+      <section className="py-16 md:py-24 bg-black min-h-[60vh]">
         <div className="container mx-auto px-4 max-w-6xl">
 
           {/* TITLE */}
@@ -13,244 +14,176 @@ const Events = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
           >
-            <h1 className="text-4xl font-bold text-gradient-saffron">
+            <h1 className="text-4xl font-bold text-orange-400">
               Career Counselling Seminar
             </h1>
-            <p className="text-muted-foreground mt-2">
+
+            <p className="text-gray-400 mt-2">
               SATSANG OUTR × SATSANG VIHAR BHUBANESWAR
             </p>
           </motion.div>
 
           {/* REGISTER BUTTON */}
-          <div className="text-center mb-10">
+          <div className="text-center mb-12">
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSfHAY_jPzZibZcqvQRCHFgbsoCZAi-n0Ub69L4HrjqUpLQuVQ/viewform?usp=header"
               target="_blank"
-              className="px-8 py-3 rounded-xl bg-saffron-gradient text-white font-semibold shadow-saffron hover:opacity-90"
+              rel="noopener noreferrer"
+              className="px-8 py-3 rounded-xl bg-orange-500 text-white font-semibold hover:bg-orange-600 transition"
             >
               📋 Register Now
             </a>
           </div>
 
-          
-
+          {/* EVENT SCHEDULE */}
           <motion.div
-            className="bg-white rounded-2xl shadow-lg border border-primary/20 mb-14"
+            className="bg-[#0b1e3a] rounded-2xl shadow-xl p-8"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
           >
 
-            <div className="p-6 border-b">
-              <h2 className="text-2xl font-bold text-primary">
-                Event Schedule
-              </h2>
-            </div>
+            <h2 className="text-2xl font-bold text-white mb-10">
+              Event Schedule
+            </h2>
 
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm">
+            <div className="space-y-6">
 
-                <thead className="bg-primary text-white">
-                  <tr>
-                    <th className="px-6 py-3 text-left">Time</th>
-                    <th className="px-6 py-3 text-left">Session</th>
-                    <th className="px-6 py-3 text-left">Details</th>
-                  </tr>
-                </thead>
+              {/* SESSION */}
+              <div className="flex gap-6 items-start border-r-4 border-orange-500 pr-6">
+                <div className="text-orange-400 font-semibold min-w-[140px]">
+                  09:00 – 10:00
+                </div>
 
-                <tbody className="divide-y">
+                <div className="bg-[#132a4d] p-5 rounded-xl w-full">
+                  <h3 className="font-bold text-white text-lg">
+                    Registration & Orientation
+                  </h3>
 
-                  <tr className="hover:bg-muted/40">
-                    <td className="px-6 py-4 font-medium">
-                      09:00 – 10:00
-                    </td>
-                    <td className="px-6 py-4">
-                      Registration & Orientation
-                    </td>
-                    <td className="px-6 py-4 text-muted-foreground">
-                      Welcome of students and seminar overview
-                    </td>
-                  </tr>
+                  <p className="text-gray-400 text-sm">
+                    Welcome of students and seminar overview
+                  </p>
+                </div>
+              </div>
 
-                  <tr className="hover:bg-muted/40">
-                    <td className="px-6 py-4 font-medium">
-                      10:00 – 10:15
-                    </td>
-                    <td className="px-6 py-4">
-                      Inaugural Session
-                    </td>
-                    <td className="px-6 py-4">
-                      Diya Prajwalan & Theme Song
-                    </td>
-                  </tr>
+              {/* SESSION */}
+              <div className="flex gap-6 items-start border-r-4 border-orange-500 pr-6">
+                <div className="text-orange-400 font-semibold min-w-[140px]">
+                  10:00 – 10:15
+                </div>
 
-                  <tr className="hover:bg-muted/40">
-                    <td className="px-6 py-4 font-medium">
-                      10:15 – 10:45
-                    </td>
-                    <td className="px-6 py-4">
-                      Speaker Addresses
-                    </td>
-         <td className="px-4 py-3">
-  <ul className="list-disc list-inside space-y-2">
+                <div className="bg-[#132a4d] p-5 rounded-xl w-full">
+                  <h3 className="font-bold text-white text-lg">
+                    Inaugural Session
+                  </h3>
 
-    <li>
-      <strong>Welcome Address:</strong> Dr. Banabhari Mishra
-      <span className="block text-muted-foreground text-sm">
-        Advisor of Organising Committee (Senior Consultant CVTS, SUMUM, BBSR)
-      </span>
-    </li>
+                  <p className="text-gray-400 text-sm">
+                    Diya Prajwalan & Theme Song
+                  </p>
+                </div>
+              </div>
 
-    <li>
-      <strong>Theme Address:</strong> Dr. Batakrushna Tripathy
-      <span className="block text-muted-foreground text-sm">
-        Asst. Professor, SOA University
-      </span>
-    </li>
+              {/* SESSION */}
+              <div className="flex gap-6 items-start border-r-4 border-orange-500 pr-6">
 
-    <li>
-      <strong>Guest Speaker:</strong> Mr. Surya Prakash Mahapatra
-      <span className="block text-muted-foreground text-sm">
-        Chairman, SOA
-      </span>
-    </li>
+                <div className="text-orange-400 font-semibold min-w-[140px]">
+                  10:15 – 10:45
+                </div>
 
-    <li>
-      <strong>Guest of Honour:</strong> Bibhuti Bhusan Biswal
-      <span className="block text-muted-foreground text-sm">
-        Vice Chancellor, OUTR
-      </span>
-    </li>
+                <div className="bg-[#132a4d] p-5 rounded-xl w-full">
 
-    <li>
-      <strong>Vote of Thanks:</strong> Dr. Jubilee Purkayastha
-      <span className="block text-muted-foreground text-sm">
-        Scientist & Joint Director, INMAS DRDO, Ministry of Defence, Govt. of India
-      </span>
-    </li>
+                  <h3 className="font-bold text-white text-lg mb-3">
+                    Speaker Addresses
+                  </h3>
 
-  </ul>
-</td>
-                  </tr> 
-                  <tr className="bg-muted/20">
-                    <td className="px-6 py-4 font-medium">
-                      10:45 Am - 11:00 Am
-                    </td>
-                    <td className="px-6 py-4">
-                      Tea Break
-                    </td>
-                    <td className="px-6 py-4 text-muted-foreground">
-                      Networking & Refreshments
-                    </td>
-                  </tr>
+                  <ul className="text-gray-300 text-sm space-y-3">
 
-                  <tr className="hover:bg-muted/40">
-                    <td className="px-6 py-4 font-medium">
-                      11:15 – 1:00
-                    </td>
-                    <td className="px-6 py-4">
-                      Career Counselling
-                    </td>
-                    <td className="px-6 py-4">
-                      Expert guidance with interactive Q&A
-                    </td>
-                  </tr>
+                    <li>
+                      <span className="font-semibold text-white">
+                        Welcome Address:
+                      </span>{" "}
+                      Dr. Banabhari Mishra
+                      <div className="text-gray-400 text-xs">
+                        Advisor of Organising Committee (Senior Consultant CVTS, SUMUM, BBSR)
+                      </div>
+                    </li>
 
-                  <tr className="bg-muted/20">
-                    <td className="px-6 py-4 font-medium">
-                      1:00 – 2:00
-                    </td>
-                    <td className="px-6 py-4">
-                      Lunch Break
-                    </td>
-                    <td className="px-6 py-4 text-muted-foreground">
-                      —
-                    </td>
-                  </tr>
+                    <li>
+                      <span className="font-semibold text-white">
+                        Theme Address:
+                      </span>{" "}
+                      Dr. Batakrushna Tripathy
+                      <div className="text-gray-400 text-xs">
+                        Asst. Professor, SOA University
+                      </div>
+                    </li>
 
-                  <tr className="hover:bg-muted/40">
-                    <td className="px-6 py-4 font-medium">
-                      2:00 – 2:20
-                    </td>
-                    <td className="px-6 py-4">
-                      Rhythm & Resonance
-                    </td>
-                    <td className="px-6 py-4">
-                      Harmony in Life, Purpose and Career
-                    </td>
-                  </tr>
+                    <li>
+                      <span className="font-semibold text-white">
+                        Guest Speaker:
+                      </span>{" "}
+                      Mr. Surya Prakash Mahapatra
+                      <div className="text-gray-400 text-xs">
+                        Chairman, SOA
+                      </div>
+                    </li>
 
-                  <tr className="hover:bg-muted/40">
-                    <td className="px-6 py-4 font-medium">
-                      2:20 – 3:50
-                    </td>
-                    <td className="px-6 py-4">
-                      Plenary Sessions
-                    </td>
-                    <td className="px-6 py-4">
-                      Domain specific expert talks
-                    </td>
-                  </tr>
+                    <li>
+                      <span className="font-semibold text-white">
+                        Guest of Honour:
+                      </span>{" "}
+                      Bibhuti Bhusan Biswal
+                      <div className="text-gray-400 text-xs">
+                        Vice Chancellor, OUTR
+                      </div>
+                    </li>
 
-                  <tr className="hover:bg-muted/40">
-                    <td className="px-6 py-4 font-medium">
-                      3:50 – 4:00
-                    </td>
-                    <td className="px-6 py-4">
-                      Valedictory
-                    </td>
-                    <td className="px-6 py-4">
-                      Certificates & Vote of Thanks
-                    </td>
-                  </tr>
+                    <li>
+                      <span className="font-semibold text-white">
+                        Vote of Thanks:
+                      </span>{" "}
+                      Dr. Jubilee Purkayastha
+                      <div className="text-gray-400 text-xs">
+                        Scientist & Joint Director, INMAS DRDO
+                      </div>
+                    </li>
 
-                </tbody>
-              </table>
-            </div>
-          </motion.div>
+                  </ul>
+                </div>
+              </div>
 
-          {/* ===================== PLENARY SESSION ===================== */}
+              {/* SESSION */}
+              <div className="flex gap-6 items-start border-r-4 border-orange-500 pr-6">
+                <div className="text-orange-400 font-semibold min-w-[140px]">
+                  10:45 – 11:00
+                </div>
 
-          <motion.div
-            className="bg-white rounded-2xl shadow-lg border border-primary/20 mb-14"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-          >
-            <div className="p-6 border-b">
-              <h2 className="text-2xl font-bold text-primary">
-                Plenary Session Speakers
-              </h2>
-            </div>
+                <div className="bg-[#132a4d] p-5 rounded-xl w-full">
+                  <h3 className="font-bold text-white text-lg">
+                    Tea Break
+                  </h3>
 
-            <div className="p-6 grid md:grid-cols-2 gap-4 text-sm">
+                  <p className="text-gray-400 text-sm">
+                    Networking & Refreshments
+                  </p>
+                </div>
+              </div>
 
-              <div>Dr. Sutanu Chakraborty – IIT Madras</div>
-              <div>Dr. Jubilee Purkayastha – INMAS DRDO</div>
-              <div>Mr. Surya Prakash Mahapatra – WIPRO</div>
-              <div>Dr. Lingraj Sahoo – IIT Guwahati</div>
+              {/* SESSION */}
+              <div className="flex gap-6 items-start border-r-4 border-orange-500 pr-6">
+                <div className="text-orange-400 font-semibold min-w-[140px]">
+                  11:15 – 01:00
+                </div>
 
-            </div>
-          </motion.div>
+                <div className="bg-[#132a4d] p-5 rounded-xl w-full">
+                  <h3 className="font-bold text-white text-lg">
+                    Career Counselling Session
+                  </h3>
 
-          {/* ===================== COUNSELLING ===================== */}
-
-          <motion.div
-            className="bg-white rounded-2xl shadow-lg border border-primary/20"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-          >
-
-            <div className="p-6 border-b">
-              <h2 className="text-2xl font-bold text-primary">
-                Career Counselling Panel
-              </h2>
-            </div>
-
-            <div className="p-6 grid md:grid-cols-2 gap-4 text-sm">
-
-              <div>Dr. Batakrushna Tripathy</div>
-              <div>Dr. Banabhari Mishra</div>
-              <div>Mr. Kalinga Keshari Rath</div>
-              <div>Dr. Pravakar Mohanty – DST Govt of India</div>
+                  <p className="text-gray-400 text-sm">
+                    Expert guidance with interactive Q&A
+                  </p>
+                </div>
+              </div>
 
             </div>
 
@@ -263,3 +196,4 @@ const Events = () => {
 };
 
 export default Events;
+```
