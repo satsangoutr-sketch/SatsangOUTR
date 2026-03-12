@@ -110,8 +110,7 @@ const Events = () => {
               <li><strong>Welcome Address:</strong> Dr. Banabhari Mishra </li>
                <td className="px-4 py-3 text-muted-foreground">
             - Advisor of organising comitee (Senior consultant CVTS,SUMUM,BBSR)
-          </td>
-        </tr>
+         
               <li><strong>Theme Address:</strong> Dr. Batakrushna Tripathy</li>
               <li><strong>Mr. Surya Prakash Mahapatra</strong> – WIPRO</li>
               <li><strong>Dr. Sutanu Chakraborty</strong> – IIT Madras</li>
@@ -122,7 +121,8 @@ const Events = () => {
             </ul>
           </td>
         </tr>
-
+ </td>
+        </tr>
 
       
         <tr className="bg-muted/20">
