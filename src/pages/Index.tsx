@@ -156,7 +156,7 @@ const Index = () => {
               </p>
 
               <blockquote className="border-l-4 border-orange-400 pl-6 py-2">
-                <p className="font-heading text-xl italic text-black">
+                <p className="font-heading text-xl italic text-gradient-saffron">
                   "To uphold one's life and growth with that of others is
                   Dharma."
                 </p>
