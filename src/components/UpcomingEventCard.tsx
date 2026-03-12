@@ -9,7 +9,7 @@ const photos = [seminarGroup, seminarInteraction, seminarPresentation];
 
 const UpcomingEventCard = () => {
   return (
-    <section className="py-20 bg-background">
+    <section className="py-20 bg-[#0b1e3a]">
       <div className="container mx-auto px-4">
         <motion.div
           className="max-w-4xl mx-auto"
@@ -18,8 +18,8 @@ const UpcomingEventCard = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="font-heading text-3xl md:text-4xl font-bold text-center mb-10">
-            Upcoming <span className="text-gradient-saffron">Events</span>
+          <h2 className="font-heading text-3xl md:text-4xl font-bold text-gradient-saffron mb-10">
+            Events 
           </h2>
 
           <motion.div
@@ -45,12 +45,12 @@ const UpcomingEventCard = () => {
 
             <div className="bg-saffron-gradient p-4 md:p-6 text-primary-foreground">
               <span className="inline-block px-3 py-1 rounded-full bg-background/20 text-sm font-medium mb-3">
-                🔴 Upcoming
+                🔴 Live 
               </span>
               <h3 className="font-heading text-2xl md:text-3xl font-bold">
                 🎓 Comprehensive Career Counselling Seminar
               </h3>
-              <p className="mt-2 opacity-90">SATSANG OUTR × SATSANG VIHAR BHUBANESWAR</p>
+              <p className="mt-2 opacity-90">SATSANG VIHAR BHUBANESWAR</p>
             </div>
 
             <div className="p-4 md:p-6 space-y-4">
@@ -59,7 +59,7 @@ const UpcomingEventCard = () => {
                   <CalendarDays size={16} /> Date: 28 March 2026
                 </span>
                 <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary font-medium text-sm">
-                  <MapPin size={16} /> IBCS,Seminar hall SOA Campus 2 Near sum Hospital,Bhubaneswar
+                  <MapPin size={16} /> Convention hall SOA Campus 2 Near sum Hospital,Bhubaneswar
                 </span>
               </div>
 
