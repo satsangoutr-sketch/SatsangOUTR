@@ -358,6 +358,9 @@ OAS) Assistant Collector, Govt.Of Odisha        </div>
         </div>
       </li> 
        <div className="bg-[#111827] p-8 rounded-2xl shadow-lg">
+         </ul>
+
+  </div>
 {/* CARD 3 */}
     <div className="flex items-center gap-3 mb-3">
       <span className="bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded">
@@ -449,11 +452,14 @@ MD, EVOS buildcon Pvt. Ltd        </div>
          IIM Ahmedabad, Operation Design Lead at Curefit /Ex Consultant DELOITTE
         </div>
       </li>
-      10.	Kaibalya Kumar Sahoo 
+      10.<li>	Kaibalya Kumar Sahoo 
         <div className="text-gray-500 text-sm">
         Assistant Manager at Odisha Hydro Power Corporation
         </div>
       </li>
+      </ul>
+
+  </div>
          {/* CARD 4 */}
     <div className="flex items-center gap-3 mb-3">
       <span className="bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded">
