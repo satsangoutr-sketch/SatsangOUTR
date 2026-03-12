@@ -4,7 +4,7 @@ import Layout from "@/components/Layout";
 const Events = () => {
   return (
     <Layout>
-      <section className="py-16 md:py-24 bg-black min-h-screen">
+      <section className="py-16 md:py-24 bg-White min-h-screen">
         <div className="max-w-5xl mx-auto px-4">
 
           {/* TITLE */}
@@ -18,7 +18,7 @@ const Events = () => {
             </h1>
 
             <p className="text-gray-400 mt-2">
-              SATSANG OUTR × SATSANG VIHAR BHUBANESWAR
+               SATSANG VIHAR BHUBANESWAR
             </p>
           </motion.div>
 
