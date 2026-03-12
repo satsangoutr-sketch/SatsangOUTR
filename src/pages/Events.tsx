@@ -90,7 +90,7 @@ const Events = () => {
                     <td className="px-6 py-4">
                       Speaker Addresses
                     </td>
-           <td className="px-4 py-3">
+         <td className="px-4 py-3">
   <ul className="list-disc list-inside space-y-2">
 
     <li>
@@ -127,10 +127,9 @@ const Events = () => {
         Scientist & Joint Director, INMAS DRDO, Ministry of Defence, Govt. of India
       </span>
     </li>
-  </tr>
+
   </ul>
 </td>
-
                   <tr className="bg-muted/20">
                     <td className="px-6 py-4 font-medium">
                       10:45 Am - 11:00 Am
