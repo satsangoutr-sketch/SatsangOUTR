@@ -1,4 +1,4 @@
-```jsx
+
 import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
 
@@ -382,4 +382,4 @@ const Events = () => {
 };
 
 export default Events;
-```
+
