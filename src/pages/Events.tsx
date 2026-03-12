@@ -63,7 +63,7 @@ const Events = () => {
      
         <tr className="hover:bg-muted/40">
           <td className="px-4 py-3 font-medium border-r border-border whitespace-nowrap">
-            09:00 – 10:00
+            09:00 AM – 10:00 AM
           </td>
 
           <td className="px-4 py-3 font-medium border-r border-border">
@@ -79,7 +79,7 @@ const Events = () => {
 
         <tr className="hover:bg-muted/40">
           <td className="px-4 py-3 font-medium border-r border-border whitespace-nowrap">
-            10:00 – 10:15
+            10:00 AM – 10:15 Am
           </td>
 
           <td className="px-4 py-3 font-medium border-r border-border">
@@ -98,7 +98,7 @@ const Events = () => {
         
         <tr className="hover:bg-muted/40">
           <td className="px-4 py-3 font-medium border-r border-border whitespace-nowrap">
-            10:15 – 11:00
+            10:15 AM - 10:45 Am
           </td>
 
           <td className="px-4 py-3 font-medium border-r border-border">
@@ -107,7 +107,11 @@ const Events = () => {
 
           <td className="px-4 py-3">
             <ul className="list-disc list-inside space-y-1">
-              <li><strong>Welcome Address:</strong> Dr. Banabhari Mishra</li>
+              <li><strong>Welcome Address:</strong> Dr. Banabhari Mishra </li>
+               <td className="px-4 py-3 text-muted-foreground">
+            - Advisor of organising comitee (Senior consultant CVTS,SUMUM,BBSR)
+          </td>
+        </tr>
               <li><strong>Theme Address:</strong> Dr. Batakrushna Tripathy</li>
               <li><strong>Mr. Surya Prakash Mahapatra</strong> – WIPRO</li>
               <li><strong>Dr. Sutanu Chakraborty</strong> – IIT Madras</li>
