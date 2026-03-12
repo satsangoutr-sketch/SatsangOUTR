@@ -75,6 +75,8 @@ const UpcomingEventCard = () => {
     View All Events <ArrowRight size={16} />
   </Link>
 </div>
+            </div>
+          
           </motion.div>
         </motion.div>
       </div>
