@@ -10,9 +10,9 @@ const Events = () => {
       <section className="py-16 md:py-24 bg-cream min-h-[60vh]">
         <div className="container mx-auto px-4">
 
-          {/* Upcoming Event Schedule - FIRST */}
+          
           <motion.div
-            className="max-w-4xl mx-auto mb-16"
+            className="max-w-6xl mx-auto mb-16"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
@@ -58,7 +58,7 @@ const Events = () => {
 
       <tbody className="divide-y divide-border">
 
-        {/* Row 1 */}
+     
         <tr className="hover:bg-muted/40">
           <td className="px-4 py-3 font-medium border-r border-border whitespace-nowrap">
             09:00 – 10:00
@@ -74,7 +74,7 @@ const Events = () => {
         </tr>
 
 
-        {/* Row 2 */}
+
         <tr className="hover:bg-muted/40">
           <td className="px-4 py-3 font-medium border-r border-border whitespace-nowrap">
             10:00 – 10:15
@@ -93,7 +93,7 @@ const Events = () => {
         </tr>
 
 
-        {/* Row 3 */}
+        
         <tr className="hover:bg-muted/40">
           <td className="px-4 py-3 font-medium border-r border-border whitespace-nowrap">
             10:15 – 11:00
@@ -118,7 +118,7 @@ const Events = () => {
         </tr>
 
 
-        {/* Tea Break */}
+      
         <tr className="bg-muted/20">
           <td className="px-4 py-3 font-medium border-r border-border whitespace-nowrap">
             11:00 – 11:15
@@ -134,7 +134,7 @@ const Events = () => {
         </tr>
 
 
-        {/* Counselling */}
+       
         <tr className="hover:bg-muted/40">
           <td className="px-4 py-3 font-medium border-r border-border whitespace-nowrap">
             11:15 – 1:00
@@ -159,7 +159,7 @@ const Events = () => {
         </tr>
 
 
-        {/* Lunch */}
+       
         <tr className="bg-muted/20">
           <td className="px-4 py-3 font-medium border-r border-border whitespace-nowrap">
             1:00 – 2:00
@@ -175,7 +175,7 @@ const Events = () => {
         </tr>
 
 
-        {/* Rhythm */}
+       
         <tr className="hover:bg-muted/40">
           <td className="px-4 py-3 font-medium border-r border-border whitespace-nowrap">
             2:00 – 2:20
@@ -191,7 +191,7 @@ const Events = () => {
         </tr>
 
 
-        {/* Plenary */}
+     
         <tr className="hover:bg-muted/40">
           <td className="px-4 py-3 font-medium border-r border-border whitespace-nowrap">
             2:20 – 3:50
@@ -207,7 +207,7 @@ const Events = () => {
         </tr>
 
 
-        {/* Valedictory */}
+        
         <tr className="hover:bg-muted/40">
           <td className="px-4 py-3 font-medium border-r border-border whitespace-nowrap">
             3:50 – 4:00
@@ -243,7 +243,7 @@ const Events = () => {
 
           </motion.div>
 
-          {/* Past Events - Side by Side */}
+          
           <motion.h2
             className="font-heading text-2xl md:text-3xl font-bold mb-10 text-center"
             initial={{ opacity: 0, y: 20 }}
@@ -254,7 +254,7 @@ const Events = () => {
           </motion.h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-            {/* PCOD/PCOS Event Card */}
+          
             <motion.div
               className="rounded-2xl overflow-hidden shadow-lg border border-primary/20 bg-card relative"
               initial={{ opacity: 0, y: 30 }}
@@ -326,7 +326,7 @@ const Events = () => {
               </div>
             </motion.div>
 
-            {/* Confidence Building Event Card */}
+           
             <motion.div
               className="rounded-2xl overflow-hidden shadow-lg border border-primary/20 bg-card relative"
               initial={{ opacity: 0, y: 30 }}
@@ -399,7 +399,7 @@ const Events = () => {
             </motion.div>
           </div>
 
-          {/* Stay Tuned */}
+         
           <motion.p
             className="text-center mt-14 text-3xl md:text-5xl font-bold text-foreground"
             initial={{ opacity: 0 }}
