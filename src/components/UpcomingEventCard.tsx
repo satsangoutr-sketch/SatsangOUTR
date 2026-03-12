@@ -67,23 +67,14 @@ const UpcomingEventCard = () => {
                 A comprehensive career counselling seminar featuring eminent speakers from IIT, DRDO, WIPRO, SOA University, and more. Includes inaugural session, career counselling sessions, domain-specific plenary sessions, and interactive Q&A.
               </p>
 
-              <div className="flex flex-wrap gap-3 pt-2">
-                <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSfHAY_jPzZibZcqvQRCHFgbsoCZAi-n0Ub69L4HrjqUpLQuVQ/viewform?usp=header"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-saffron-gradient text-primary-foreground font-medium shadow-saffron hover:opacity-90 transition-opacity"
-                >
-                  <ExternalLink size={16} /> Register Now
-                </a>
-                <Link
-                  to="/events"
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-primary text-primary font-medium hover:bg-primary/5 transition-colors"
-                >
-                  View All Events <ArrowRight size={16} />
-                </Link>
-              </div>
-            </div>
+              <div className="flex justify-center pt-2">
+  <Link
+    to="/events"
+    className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-primary text-primary font-medium hover:bg-primary/5 transition-colors"
+  >
+    View All Events <ArrowRight size={16} />
+  </Link>
+</div>
           </motion.div>
         </motion.div>
       </div>
