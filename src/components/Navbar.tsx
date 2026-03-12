@@ -16,7 +16,7 @@ const Navbar = () => {
   const location = useLocation();
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#243447]/90 backdrop-blur-md border-b border-saffron">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-text-gradient-saffron/90 backdrop-blur-md border-b border-saffron">
       <div className="container mx-auto px-4 flex items-center justify-between h-16 md:h-20">
         <Link to="/" className="flex items-center gap-2">
           <img src={logo} alt="Satsang OUTR Logo" className="w-12 h-12 rounded-full object-cover" />
