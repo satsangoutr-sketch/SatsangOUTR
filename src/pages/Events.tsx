@@ -12,7 +12,7 @@ const Events = () => {
 
           
           <motion.div
-            className="max-w-6xl mx-auto mb-16"
+            className="max-w-6.5xl mx-auto mb-16"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
@@ -35,7 +35,9 @@ const Events = () => {
   </a>
 </div>
 
-          <div className="rounded-2xl border border-primary/20 bg-card shadow-lg overflow-hidden">
+         
+            
+            <div className="rounded-2xl border border-primary/20 bg-card shadow-lg overflow-hidden">
   <div className="overflow-x-auto">
 
     <table className="w-full text-left text-sm border-collapse">
