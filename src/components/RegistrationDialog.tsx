@@ -12,6 +12,9 @@ import seminarSpeaker from "@/assets/seminar-speaker.png";
 const RegistrationDialog = () => {
   const [open, setOpen] = useState(false);
 
+  const targetDate = new Date("2026-03-28T09:00:00").getTime();
+  const [timeLeft, setTimeLeft] = useState(targetDate - new Date().getTime());
+
   useEffect(() => {
     const dismissed = sessionStorage.getItem("registration-dismissed");
     if (!dismissed) {
@@ -20,46 +23,83 @@ const RegistrationDialog = () => {
     }
   }, []);
 
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTimeLeft(targetDate - new Date().getTime());
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, []);
+
   const handleClose = () => {
     setOpen(false);
     sessionStorage.setItem("registration-dismissed", "true");
   };
 
+  const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((timeLeft / (1000 * 60 * 60)) % 24);
+  const minutes = Math.floor((timeLeft / (1000 * 60)) % 60);
+  const seconds = Math.floor((timeLeft / 1000) % 60);
+
   return (
     <Dialog open={open} onOpenChange={(v) => { if (!v) handleClose(); }}>
-      <DialogContent className="sm:max-w-sm p-0 overflow-hidden border-0">
-        {/* Full background image */}
+      
+      <DialogContent className="sm:max-w-lg p-0 overflow-hidden border-0 bg-black text-white">
+
         <div
-          className="relative w-full min-h-[420px] bg-cover bg-center flex flex-col justify-end"
+          className="relative w-full min-h-[520px] bg-cover bg-center flex flex-col justify-end"
           style={{ backgroundImage: `url(${seminarSpeaker})` }}
         >
-          {/* Gradient overlay for readability */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent" />
+          {/* Dark overlay */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-black/30" />
 
-          {/* Content over image */}
-          <div className="relative z-10 p-5 text-white">
+          <div className="relative z-10 p-6 text-white">
             <DialogHeader>
-              <DialogTitle className="text-center text-lg font-heading text-white">
+              <DialogTitle className="text-center text-xl font-heading text-white">
                 🎓 Career Counselling Seminar
               </DialogTitle>
-              <DialogDescription className="text-center text-white/80 text-xs">
+
+              <DialogDescription className="text-center text-white/80 text-sm">
                 A Comprehensive Career Counselling Seminar is coming up!
               </DialogDescription>
             </DialogHeader>
 
-            <div className="space-y-2 pt-3 text-sm">
+            {/* Countdown */}
+            <div className="mt-4 grid grid-cols-4 gap-2 text-center">
+              <div className="bg-black/70 rounded-lg p-2">
+                <div className="text-lg font-bold">{days}</div>
+                <div className="text-xs text-white/70">Days</div>
+              </div>
+              <div className="bg-black/70 rounded-lg p-2">
+                <div className="text-lg font-bold">{hours}</div>
+                <div className="text-xs text-white/70">Hours</div>
+              </div>
+              <div className="bg-black/70 rounded-lg p-2">
+                <div className="text-lg font-bold">{minutes}</div>
+                <div className="text-xs text-white/70">Minutes</div>
+              </div>
+              <div className="bg-black/70 rounded-lg p-2">
+                <div className="text-lg font-bold">{seconds}</div>
+                <div className="text-xs text-white/70">Seconds</div>
+              </div>
+            </div>
+
+            <div className="space-y-2 pt-4 text-sm">
               <div className="flex items-center gap-2 text-white/90">
-                <CalendarDays size={15} className="shrink-0" />
+                <CalendarDays size={15} />
                 <span>Check Events page for schedule</span>
               </div>
+
               <div className="flex items-center gap-2 text-white/90">
-                <MapPin size={15} className="shrink-0" />
-                <span> IBCS,Seminar hall SOA Campus 2 Near sum Hospital,Bhubaneswar</span>
+                <MapPin size={15} />
+                <span>
+                 Convention hall SOA Campus 2 Near SUM Hospital, Bhubaneswar
+                </span>
               </div>
+
               <a
                 href="/Events"
-      
-                className="mt-2 inline-flex w-full items-center justify-center gap-2 px-5 py-2.5 rounded-lg bg-saffron-gradient text-primary-foreground font-medium shadow-saffron hover:opacity-90 transition-opacity text-sm"
+                className="mt-3 inline-flex w-full items-center justify-center gap-2 px-5 py-2.5 rounded-lg bg-saffron-gradient text-primary-foreground font-medium shadow-saffron hover:opacity-90 transition-opacity text-sm"
               >
                 <ExternalLink size={14} /> View All Events
               </a>
