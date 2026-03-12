@@ -58,6 +58,7 @@ const Events = () => {
                         <ul className="list-disc list-inside space-y-1">
                           <li><strong className="text-foreground">Diya Prajwalan</strong></li>
                           <li>Theme song dedicated to young students</li>
+                          <tr className="hover:bg-muted/50 transition-colors">
                           <td className="px-4 py-3 whitespace-nowrap font-medium text-foreground align-top">10:15 – 11:00</td>
                           <li><strong className="text-foreground">Welcome Address:</strong> Dr. Banabhari Mishra (MBBS, MS)</li>
                           <li><strong className="text-foreground">Theme Address:</strong> Dr. Batakrushna Tripathy, SOA University</li>
@@ -69,6 +70,7 @@ const Events = () => {
                           <li><strong className="text-foreground">Dr. Pravakar Mohanty</strong> – Scientist E, DST Govt of India</li>
                         </ul>
                       </td>
+                    </tr>
                     </tr>
                     <tr className="bg-muted/30">
                       <td className="px-4 py-3 whitespace-nowrap font-medium text-foreground align-top">11:00 – 11:15</td>
