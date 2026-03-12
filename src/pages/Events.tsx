@@ -26,7 +26,7 @@ const Events = () => {
             <p className="text-center text-muted-foreground mb-8">SATSANG OUTR × SATSANG VIHAR BHUBANESWAR</p>
             <div className="text-center mt-8">
   <a
-    href="https://forms.gle/kRX4xs9tmu5XFSag9"
+    href="https://docs.google.com/forms/d/e/1FAIpQLSfHAY_jPzZibZcqvQRCHFgbsoCZAi-n0Ub69L4HrjqUpLQuVQ/viewform?usp=header"
     target="_blank"
     rel="noopener noreferrer"
     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl bg-saffron-gradient text-primary-foreground font-semibold text-lg shadow-saffron hover:opacity-90 transition-opacity"
@@ -115,7 +115,7 @@ const Events = () => {
             
 <div className="text-center mt-8">
   <a
-    href="https://forms.gle/kRX4xs9tmu5XFSag9"
+    href="https://docs.google.com/forms/d/e/1FAIpQLSfHAY_jPzZibZcqvQRCHFgbsoCZAi-n0Ub69L4HrjqUpLQuVQ/viewform?usp=header"
     target="_blank"
     rel="noopener noreferrer"
     className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl bg-saffron-gradient text-primary-foreground font-semibold text-lg shadow-saffron hover:opacity-90 transition-opacity"
