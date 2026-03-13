@@ -124,7 +124,7 @@ const Index = () => {
       {/* Last Photo */}
       <section className="bg-[#243447]">
         <div className="container mx-auto px-4 pb-12">
-          <div className="max-w-2xl mx-auto rounded-xl overflow-hidden shadow-lg">
+          <div className="max-w-6xl mx-auto rounded-xl overflow-hidden shadow-lg">
             <img
               src={statueClose}
               alt="Sree Sree Thakur Anukulchandra"
