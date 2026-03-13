@@ -35,7 +35,7 @@ const Index = () => {
 
       {/* Fade Image Gallery */}
       <section className="relative bg-[#243447] py-10 flex justify-center items-center">
-        <div className="relative w-full max-w-6xl h-[400px] md:h-[600px] overflow-hidden rounded-xl shadow-lg">
+        <div className="relative w-full max-w-12xl h-[400px] md:h-[600px] overflow-hidden rounded-xl shadow-lg">
           {scrollImages.map((img, i) => (
             <motion.img
               key={i}
@@ -55,9 +55,9 @@ const Index = () => {
               variants={fadeUp}        // <--- now correctly defined
               initial="hidden"
               animate="visible"
-              className="font-heading text-4xl md:text-6xl font-bold text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.7)] tracking-wider"
+              
             >
-              Satsang Gallery
+              
             </motion.h2>
           </div>
         </div>
