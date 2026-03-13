@@ -43,12 +43,7 @@ const Index = () => {
 
       </section>
 
-    </Layout>
-  );
-};
-
-export default Index;
-
+   
       {/* Hero */}
       <section className="relative bg-[#243447] overflow-hidden">
         <div className="absolute inset-0 opacity-5">
