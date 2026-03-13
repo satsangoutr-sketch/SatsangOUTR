@@ -623,7 +623,7 @@ Assistant Prof. SOA
           <ul className="list-disc list-inside space-y-1 text-white">
            <li>	Dr. Hrushikesh Senapati   </li>
                        <div className="text-gray-400 text-xs">
-Former Dean, Agriculture
+Former Dean, OUAT
 </div>
             <li> Dr.Trinath Mahararana </li>
                        <div className="text-gray-400 text-xs">
