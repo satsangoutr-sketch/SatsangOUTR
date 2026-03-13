@@ -420,6 +420,9 @@ Mr. Hari Prasanna Sahoo
 PhD Scholar, Agriculture, BHU
 </div>
 </li>
+  
+
+</ul>
   {/* Parallel Session + One-to-One Career Counselling */}
 <section className="py-12 bg-[#243447] text-white">
   <div className="container mx-auto px-4">
@@ -485,8 +488,6 @@ PhD Scholar, Agriculture, BHU
     </div>
   </div>
 </section>
-
-</ul>
 
 </div>
 
