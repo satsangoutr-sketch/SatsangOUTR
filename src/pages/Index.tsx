@@ -10,7 +10,7 @@ import Layout from "@/components/Layout";
 import RegistrationDialog from "@/components/RegistrationDialog";
 import UpcomingEventCard from "@/components/UpcomingEventCard";
 
-// Fade-up animation variants
+// Animation variants
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
@@ -46,7 +46,7 @@ const Index = () => {
         ))}
       </section>
 
-      {/* Hero */}
+      {/* Hero Section */}
       <section className="relative bg-[#243447] overflow-hidden">
         <div className="absolute inset-0 opacity-5">
           <div
@@ -69,13 +69,9 @@ const Index = () => {
             </motion.p>
 
             <motion.div custom={2} variants={fadeUp} className="flex flex-wrap justify-center gap-4">
-              <Link
-                to="/about"
-                className="px-8 py-3 rounded-lg bg-saffron-gradient text-white font-medium shadow-saffron hover:opacity-90 transition-opacity"
-              >
+              <Link to="/about" className="px-8 py-3 rounded-lg bg-saffron-gradient text-white font-medium shadow-saffron hover:opacity-90 transition-opacity">
                 Learn More
               </Link>
-
               <a
                 href="https://www.satsang.org.in/home"
                 target="_blank"
@@ -119,30 +115,21 @@ const Index = () => {
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-center mb-4 text-gradient-saffron">
               OUR <span className="text-gradient-saffron">PHILOSOPHY</span>
             </h2>
-
-            <h3 className="font-heading text-2xl text-center text-gradient-saffron mb-8">
-              Being and Becoming
-            </h3>
+            <h3 className="font-heading text-2xl text-center text-gradient-saffron mb-8">Being and Becoming</h3>
 
             <div className="max-w-3xl mx-auto space-y-6">
               <p className="text-gradient-saffron text-lg leading-relaxed text-center">
                 The ideology of Satsang is a comprehensive, life-centric philosophy focusing on the balanced development of the individual mentally and spiritually, physically.
               </p>
-
               <blockquote className="border-l-4 border-orange-400 pl-6 py-2">
                 <p className="font-heading text-xl italic text-gradient-saffron">
                   "To uphold one's life and growth with that of others is Dharma."
                 </p>
-
-                <cite className="text-gradient-saffron text-sm mt-2 block">
-                  — Sree Sree Thakur Anukulchandra, Satyanusaran
-                </cite>
+                <cite className="text-gradient-saffron text-sm mt-2 block">— Sree Sree Thakur Anukulchandra, Satyanusaran</cite>
               </blockquote>
-
               <p className="text-gradient-saffron text-lg leading-relaxed text-center">
                 Centered around the Living Ideal, we practice Yajan (Self-adjustment), Yaajan (Nurturing others), and Ishtabhriti (Daily love-offering) to transform negative passions into constructive energy for universal well-being.
               </p>
-
               <p className="text-gradient-saffron text-lg leading-relaxed text-center font-medium">
                 Satsang Vihar New Delhi is an integral branch, completely attached and dedicated to the spiritual lineage and administrative guidance of Satsang Ashram, Deoghar.
               </p>
@@ -164,7 +151,6 @@ const Index = () => {
             <h2 className="font-heading text-3xl md:text-4xl font-bold mb-8 text-gradient-saffron">
               Our <span className="text-gradient-saffron">Mission</span>
             </h2>
-
             <p className="text-gradient-saffron text-lg leading-relaxed">
               "Do never die, nor cause death; but resist death to death." This website introduces you to the man who roared out this extreme optimism against a backdrop of extreme violence and sadness devouring the world. He is SREE SREE THAKUR ANUKULCHANDRA, Fulfiller the Best of the age, whose clarion call to resist death, of all sorts, physical and spiritual, has rejuvenated innumerable dwindling souls and awakened umpteenth slumbering minds.
             </p>
