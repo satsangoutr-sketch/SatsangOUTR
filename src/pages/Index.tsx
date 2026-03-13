@@ -7,47 +7,53 @@ import statueClose1 from "@/assets/WhatsApp Image 2026-03-12 at 23.40.58.jpeg";
 import Layout from "@/components/Layout";
 import RegistrationDialog from "@/components/RegistrationDialog";
 import UpcomingEventCard from "@/components/UpcomingEventCard";
-
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { useState, useEffect } from "react";
 
-const [currentImage, setCurrentImage] = useState(0);
 
-useEffect(() => {
-  const interval = setInterval(() => {
-    setCurrentImage((prev) => (prev + 1) % scrollImages.length);
-  }, 4000); // change image every 4s
-  return () => clearInterval(interval);
-}, []);
+const scrollImages = [outrGroup, statueClose1];
+
 const Index = () => {
+  // Hooks must be inside the component
+  const [currentImage, setCurrentImage] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prev) => (prev + 1) % scrollImages.length);
+    }, 4000); // change image every 4 seconds
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <Layout>
       <RegistrationDialog />
 
-      {/* Scrolling Photo Gallery */}
-     <section className="relative bg-[#243447] py-10 flex justify-center items-center">
-  {/* Large rectangle container */}
-  <div className="relative w-full max-w-6xl h-[400px] md:h-[600px] overflow-hidden rounded-xl shadow-lg">
-    {[...scrollImages].map((img, i) => (
-      <motion.img
-        key={i}
-        src={img}
-        alt={`Gallery ${i}`}
-        initial={{ opacity: 0 }}
-        animate={{ opacity: i === currentImage ? 1 : 0 }}
-        transition={{ duration: 1 }}
-        className="absolute inset-0 w-full h-full object-cover"
-        loading="lazy"
-      />
-    ))}
-    {/* Optional overlay text */}
-    <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
-      <h2 className="font-heading text-4xl md:text-6xl font-bold text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.7)] tracking-wider">
-        {/* Add your title here */}
-      </h2>
-    </div>
-  </div>
-</section>
+      {/* Fade Image Gallery */}
+      <section className="relative bg-[#243447] py-10 flex justify-center items-center">
+        <div className="relative w-full max-w-6xl h-[400px] md:h-[600px] overflow-hidden rounded-xl shadow-lg">
+          {scrollImages.map((img, i) => (
+            <motion.img
+              key={i}
+              src={img}
+              alt={`Gallery ${i}`}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: i === currentImage ? 1 : 0 }}
+              transition={{ duration: 1 }}
+              className="absolute inset-0 w-full h-full object-cover"
+              loading="lazy"
+            />
+          ))}
+
+          {/* Optional overlay text */}
+          <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
+            <h2 className="font-heading text-4xl md:text-6xl font-bold text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.7)] tracking-wider">
+              {/* Add your title here */}
+              Satsang Gallery
+            </h2>
+          </div>
+        </div>
+      </section>
 
       {/* Hero */}
       <section className="relative bg-[#243447] overflow-hidden">
