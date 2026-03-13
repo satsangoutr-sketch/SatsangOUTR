@@ -1,7 +1,11 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import templeImg from "@/assets/WhatsApp Image 2026-03-12 at 23.40.58.jpeg";
+import templeImg from "@/assets/temple.png";
 import outrGroup from "@/assets/outr-group.png";
+import statueBlue from "@/assets/statue-blue.jpeg";
+import gathering from "@/assets/gathering.png";
+import statueWhite from "@/assets/statue-white.png";
+import statueBlue2 from "@/assets/statue-blue2.png";
 import statueClose from "@/assets/statue-close.png";
 import Layout from "@/components/Layout";
 import RegistrationDialog from "@/components/RegistrationDialog";
