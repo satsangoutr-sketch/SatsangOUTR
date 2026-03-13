@@ -9,7 +9,6 @@ import Layout from "@/components/Layout";
 import RegistrationDialog from "@/components/RegistrationDialog";
 import UpcomingEventCard from "@/components/UpcomingEventCard";
 
-
 const scrollImages = [templeImg, outrGroup];
 
 const fadeUp = {
@@ -17,7 +16,7 @@ const fadeUp = {
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
-    transition: { delay: i * 0.1, duration: 0.6, ease: "easeOut" as const },
+    transition: { delay: i * 0.1, duration: 0.6, ease: "easeOut" },
   }),
 };
 
@@ -33,7 +32,7 @@ const Index = () => {
     }, 4000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [images.length]);
 
   return (
     <Layout>
@@ -46,8 +45,9 @@ const Index = () => {
           <img
             key={index}
             src={img}
-            alt="gallery"
-            className={`absolute w-full h-full object-cover transition-opacity duration-1000 ${
+            alt={`gallery-${index}`}
+            loading="lazy"
+            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
               currentImage === index ? "opacity-100" : "opacity-0"
             }`}
           />
