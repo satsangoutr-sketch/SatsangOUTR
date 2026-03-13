@@ -10,7 +10,7 @@ import Layout from "@/components/Layout";
 import RegistrationDialog from "@/components/RegistrationDialog";
 import UpcomingEventCard from "@/components/UpcomingEventCard";
 
-// Animation variant
+// Fade-up animation variant
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
@@ -20,11 +20,11 @@ const Index = () => {
   const images = [templeImg, outrGroup];
   const [currentImage, setCurrentImage] = useState(0);
 
+  // Image slider
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prev) => (prev + 1) % images.length);
     }, 4000);
-
     return () => clearInterval(interval);
   }, []);
 
@@ -67,10 +67,7 @@ const Index = () => {
               A socio-cultural and philanthropic institution dedicated to character building, spiritual awakening, and collective upliftment.
             </motion.p>
             <motion.div custom={2} variants={fadeUp} className="flex flex-wrap justify-center gap-4">
-              <Link
-                to="/about"
-                className="px-8 py-3 rounded-lg bg-saffron-gradient text-white font-medium shadow-saffron hover:opacity-90 transition-opacity"
-              >
+              <Link to="/about" className="px-8 py-3 rounded-lg bg-saffron-gradient text-white font-medium shadow-saffron hover:opacity-90 transition-opacity">
                 Learn More
               </Link>
               <a
