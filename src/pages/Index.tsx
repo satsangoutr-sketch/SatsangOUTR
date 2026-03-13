@@ -4,13 +4,13 @@ import { useState, useEffect } from "react";
 
 import templeImg from "@/assets/WhatsApp Image 2026-03-12 at 23.40.58.jpeg";
 import outrGroup from "@/assets/outr-group.png";
-import statueClose from "@/assets/statue-close.jpeg"; // <-- ADD THIS IMPORT
+import statueClose from "@/assets/statue-close.jpeg";
 
 import Layout from "@/components/Layout";
 import RegistrationDialog from "@/components/RegistrationDialog";
 import UpcomingEventCard from "@/components/UpcomingEventCard";
 
-// <-- ADD fadeUp VARIANTS
+// Fade-up animation variants
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
@@ -26,7 +26,7 @@ const Index = () => {
     }, 4000);
 
     return () => clearInterval(interval);
-  }, []); // <-- REMOVE images.length from dependency
+  }, []);
 
   return (
     <Layout>
@@ -69,7 +69,10 @@ const Index = () => {
             </motion.p>
 
             <motion.div custom={2} variants={fadeUp} className="flex flex-wrap justify-center gap-4">
-              <Link to="/about" className="px-8 py-3 rounded-lg bg-saffron-gradient text-white font-medium shadow-saffron hover:opacity-90 transition-opacity">
+              <Link
+                to="/about"
+                className="px-8 py-3 rounded-lg bg-saffron-gradient text-white font-medium shadow-saffron hover:opacity-90 transition-opacity"
+              >
                 Learn More
               </Link>
 
