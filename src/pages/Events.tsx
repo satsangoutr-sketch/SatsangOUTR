@@ -227,6 +227,9 @@ const Events = () => {
                       <p className="text-white font-semibold">
                         Dr. Jubilee Purkayastha
                       </p>
+                      <div className="text-gray-400 text-xs">
+Scientist F & Joint Director, INMAS DRDO ,Ministry Of Defence , Govt. OF India
+</div>
                     </div>
 
                     <ul className="space-y-2 text-gray-300 text-sm">
@@ -273,6 +276,9 @@ IES,DDG Prasar Bharati, Govt. Of india
                       <p className="text-white font-semibold">
                         Dr. Sutanu Chakraborty
                       </p>
+                      <div className="text-gray-400 text-xs">
+Professor, Department of Computer Science & Engineering, IIT Madras
+</div>
                     </div>
 
                     <ul className="space-y-2 text-gray-300 text-sm">
