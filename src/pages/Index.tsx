@@ -7,8 +7,6 @@ import statueClose1 from "@/assets/WhatsApp Image 2026-03-12 at 23.40.58.jpeg";
 import Layout from "@/components/Layout";
 import RegistrationDialog from "@/components/RegistrationDialog";
 import UpcomingEventCard from "@/components/UpcomingEventCard";
-import React, { useState, useEffect } from "react";
-import { motion } from "framer-motion";
 
 
 const scrollImages = [outrGroup, statueClose1];
