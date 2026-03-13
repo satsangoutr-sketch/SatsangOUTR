@@ -478,20 +478,20 @@ PhD Scholar, Agriculture, BHU
     <div className="flex-1">
       {/* Parallel Session Header with blinking dot */}
       <div className="flex items-center mb-4">
-        <span className="w-3 h-3 rounded-full bg-orange-500 animate-ping mr-3"></span>
+        <span className="w-5 h-5 rounded-full bg-orange-500 animate-ping mr-3"></span>
         <h3 className="text-orange-500 font-bold text-lg uppercase">
           Parallel Session
         </h3>
       </div>
 
       {/* One-to-One Career Counselling */}
-      <p className="text-white text-2xl md:text-3xl font-semibold mb-8">
+      <p className="text-white text-3xl md:text-4xl font-semibold mb-8">
         One-to-One Career Counselling
       </p>
 
       {/* Grid Boxes */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="bg-[#1f2a36] p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-[1200px] mx-auto">
+        <div className="bg-[#1f2a36] w-full p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
           <h4 className="text-xl font-bold text-gradient-saffron mb-3">Civil,Staff & Defence</h4>
           <ul className="list-disc list-inside space-y-1 text-white">
             
@@ -527,7 +527,7 @@ Scientist F & Joint Director, INMAS DRDO
           </ul>
         </div>
 
-        <div className="bg-[#1f2a36] p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+       <div className="bg-[#1f2a36] w-full p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
           <h4 className="text-xl font-bold text-gradient-saffron mb-3">Management & Engineering Industries</h4>
           <ul className="list-disc list-inside space-y-1 text-white">
             <li>	Mr. Surya Prakash Mahapatra  </li>
@@ -577,7 +577,7 @@ Assistant Manager at Odisha Hydro Power Corporation
           </ul>
         </div>
 
-        <div className="bg-[#1f2a36] p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+        <div className="bg-[#1f2a36] w-full p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
           <h4 className="text-xl font-bold text-gradient-saffron mb-3">Higher Education & Research</h4>
           <ul className="list-disc list-inside space-y-1 text-white">
 <li>Dr. Sutanu Chakraborty  </li>
@@ -612,7 +612,7 @@ Assistant Prof. SOA
           </ul>
         </div>
 
-        <div className="bg-[#1f2a36] p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+        <div className="bg-[#1f2a36] w-full p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
           <h4 className="text-xl font-bold text-gradient-saffron mb-3">Agricultural Technology</h4>
           <ul className="list-disc list-inside space-y-1 text-white">
            <li>	Dr. Hrushikesh Senapati   </li>
