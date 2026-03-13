@@ -426,7 +426,17 @@ PhD Scholar, Agriculture, BHU
  
 
 </div>
-                  <section className="py-12 bg-[#243447] text-white relative">
+               
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+           <section className="py-12 bg-[#243447] text-white relative">
   <div className="container mx-auto px-4 flex flex-col md:flex-row md:justify-between md:items-start gap-8">
 
     {/* Left Side: Parallel Session + Grid Boxes */}
@@ -497,15 +507,6 @@ PhD Scholar, Agriculture, BHU
 
   </div>
 </section>
-
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
-        </div>
       </section>
     </Layout>
   );
