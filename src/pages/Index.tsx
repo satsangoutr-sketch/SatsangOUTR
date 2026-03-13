@@ -35,7 +35,7 @@ const Index = () => {
 
       {/* Fade Image Gallery */}
       <section className="relative bg-[#243447] py-10 flex justify-center items-center">
-        <div className="relative w-full max-w-8x1 h-[600px] md:h-[800px] overflow-hidden rounded-xl shadow-lg">
+        <div className="relative w-full max-w-7x1 h-[600px] md:h-[800px] overflow-hidden rounded-xl shadow-lg">
           {scrollImages.map((img, i) => (
             <motion.img
               key={i}
@@ -112,7 +112,7 @@ const Index = () => {
   href="https://www.satsang.org.in/home"
   target="_blank"
   rel="noopener noreferrer"
-  className="w-full md:w-96 h-20 flex items-center justify-center bg-white text-gradient-saffron font-bold text-xl shadow-lg hover:opacity-90 transition-opacity rounded-lg"
+  className="w-full md:w-96 h-20 flex items-center justify-center bg-transparent border-2 border-white bg-white text-gradient-saffron font-bold text-xl shadow-lg hover:opacity-90 transition-opacity rounded-lg"
 >
   Visit Official Website
 </a>
@@ -124,7 +124,7 @@ const Index = () => {
       {/* Last Photo */}
       <section className="bg-[#243447]">
         <div className="container mx-auto px-4 pb-12">
-          <div className="max-w-6xl mx-auto rounded-xl overflow-hidden shadow-lg">
+          <div className="max-w-5xl mx-auto rounded-xl overflow-hidden shadow-lg">
             <img
               src={statueClose}
               alt="Sree Sree Thakur Anukulchandra"
