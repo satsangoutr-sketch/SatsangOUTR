@@ -420,6 +420,71 @@ Mr. Hari Prasanna Sahoo
 PhD Scholar, Agriculture, BHU
 </div>
 </li>
+  {/* Parallel Session + One-to-One Career Counselling */}
+<section className="py-12 bg-[#243447] text-white">
+  <div className="container mx-auto px-4">
+
+    {/* Parallel Session Header with blinking dot */}
+    <div className="flex items-center mb-4">
+      <span className="w-3 h-3 rounded-full bg-orange-500 animate-ping mr-3"></span>
+      <h3 className="text-orange-500 font-bold text-lg uppercase">
+        Parallel Session
+      </h3>
+    </div>
+
+    {/* One-to-One Career Counselling */}
+    <p className="text-white text-2xl md:text-3xl font-semibold mb-12">
+      One-to-One Career Counselling
+    </p>
+
+    {/* Grid Boxes */}
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      {/* Grid Box 1 */}
+      <div className="bg-[#1f2a36] p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+        <h4 className="text-xl font-bold text-gradient-saffron mb-4">Engineering</h4>
+        <ul className="list-disc list-inside space-y-2 text-white">
+          <li>Mechanical</li>
+          <li>Civil</li>
+          <li>Computer Science</li>
+          <li>Electrical</li>
+        </ul>
+      </div>
+
+      {/* Grid Box 2 */}
+      <div className="bg-[#1f2a36] p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+        <h4 className="text-xl font-bold text-gradient-saffron mb-4">Medical</h4>
+        <ul className="list-disc list-inside space-y-2 text-white">
+          <li>MBBS</li>
+          <li>BDS</li>
+          <li>Pharmacy</li>
+          <li>Nursing</li>
+        </ul>
+      </div>
+
+      {/* Grid Box 3 */}
+      <div className="bg-[#1f2a36] p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+        <h4 className="text-xl font-bold text-gradient-saffron mb-4">Management</h4>
+        <ul className="list-disc list-inside space-y-2 text-white">
+          <li>MBA</li>
+          <li>BBA</li>
+          <li>Finance</li>
+          <li>Marketing</li>
+        </ul>
+      </div>
+
+      {/* Grid Box 4 */}
+      <div className="bg-[#1f2a36] p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+        <h4 className="text-xl font-bold text-gradient-saffron mb-4">Arts & Science</h4>
+        <ul className="list-disc list-inside space-y-2 text-white">
+          <li>Physics</li>
+          <li>Chemistry</li>
+          <li>Psychology</li>
+          <li>Literature</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
 </ul>
 
