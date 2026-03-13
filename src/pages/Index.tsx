@@ -7,12 +7,12 @@ import gathering from "@/assets/gathering.png";
 import statueWhite from "@/assets/statue-white.png";
 import statueBlue2 from "@/assets/statue-blue2.png";
 import statueClose from "@/assets/statue-close.png";
-import statueClose from "@/assets/WhatsApp Image 2026-03-12 at 23.40.58.jpeg";
+import statueClose1 from "@/assets/WhatsApp Image 2026-03-12 at 23.40.58.jpeg";
 import Layout from "@/components/Layout";
 import RegistrationDialog from "@/components/RegistrationDialog";
 import UpcomingEventCard from "@/components/UpcomingEventCard";
 
-const scrollImages = [templeImg, outrGroup, statueBlue, gathering, statueWhite];
+const scrollImages = [templeImg, outrGroup, statueBlue, gathering, statueWhite,statueClose1];
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
