@@ -28,7 +28,7 @@ const Events = () => {
               href="https://docs.google.com/forms/d/e/1FAIpQLSfHAY_jPzZibZcqvQRCHFgbsoCZAi-n0Ub69L4HrjqUpLQuVQ/viewform"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-8 py-3 bg-[#0b1e3a] hover:bg-[#0b1e3a] text-white font-semibold rounded-lg transition"
+              className="px-8 py-6 bg-[#0b1e3a] hover:bg-[#0b1e3a] text-white font-semibold rounded-lg transition"
             >
               Register Now
             </a>
