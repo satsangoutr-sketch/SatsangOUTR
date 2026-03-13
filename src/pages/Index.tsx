@@ -10,7 +10,7 @@ import Layout from "@/components/Layout";
 import RegistrationDialog from "@/components/RegistrationDialog";
 import UpcomingEventCard from "@/components/UpcomingEventCard";
 
-// Fade-up animation variant
+// Animation variant
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
@@ -35,13 +35,14 @@ const Index = () => {
       {/* Fade Image Gallery */}
       <section className="relative h-[450px] overflow-hidden">
         {images.map((img, index) => (
-          <img
+          <motion.img
             key={index}
             src={img}
-            alt="gallery"
-            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
-              currentImage === index ? "opacity-100" : "opacity-0"
-            }`}
+            alt={`Gallery ${index}`}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: currentImage === index ? 1 : 0 }}
+            transition={{ duration: 1 }}
+            className="absolute inset-0 w-full h-full object-cover"
           />
         ))}
       </section>
@@ -58,30 +59,14 @@ const Index = () => {
           />
         </div>
         <div className="container mx-auto px-4 py-20 md:py-32 relative z-10">
-          <motion.div
-            className="max-w-3xl mx-auto text-center"
-            initial="hidden"
-            animate="visible"
-          >
-            <motion.h1
-              custom={0}
-              variants={fadeUp}
-              className="font-heading text-4xl md:text-6xl font-bold text-gradient-saffron mb-6"
-            >
+          <motion.div className="max-w-3xl mx-auto text-center" initial="hidden" animate="visible">
+            <motion.h1 custom={0} variants={fadeUp} className="font-heading text-4xl md:text-6xl font-bold text-gradient-saffron mb-6">
               Satsang – <span className="text-gradient-saffron">The Man Making Industries</span>
             </motion.h1>
-            <motion.p
-              custom={1}
-              variants={fadeUp}
-              className="text-lg md:text-xl text-gradient-saffron leading-relaxed mb-10"
-            >
+            <motion.p custom={1} variants={fadeUp} className="text-lg md:text-xl text-gradient-saffron leading-relaxed mb-10">
               A socio-cultural and philanthropic institution dedicated to character building, spiritual awakening, and collective upliftment.
             </motion.p>
-            <motion.div
-              custom={2}
-              variants={fadeUp}
-              className="flex flex-wrap justify-center gap-4"
-            >
+            <motion.div custom={2} variants={fadeUp} className="flex flex-wrap justify-center gap-4">
               <Link
                 to="/about"
                 className="px-8 py-3 rounded-lg bg-saffron-gradient text-white font-medium shadow-saffron hover:opacity-90 transition-opacity"
@@ -105,12 +90,7 @@ const Index = () => {
       <section className="bg-[#243447]">
         <div className="container mx-auto px-4 pb-12">
           <div className="max-w-2xl mx-auto rounded-xl overflow-hidden shadow-lg">
-            <img
-              src={statueClose}
-              alt="Sree Sree Thakur Anukulchandra"
-              className="w-full h-auto"
-              loading="lazy"
-            />
+            <img src={statueClose} alt="Sree Sree Thakur Anukulchandra" className="w-full h-auto" loading="lazy" />
           </div>
         </div>
       </section>
@@ -131,9 +111,7 @@ const Index = () => {
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-center mb-4 text-gradient-saffron">
               OUR <span className="text-gradient-saffron">PHILOSOPHY</span>
             </h2>
-            <h3 className="font-heading text-2xl text-center text-gradient-saffron mb-8">
-              Being and Becoming
-            </h3>
+            <h3 className="font-heading text-2xl text-center text-gradient-saffron mb-8">Being and Becoming</h3>
             <div className="max-w-3xl mx-auto space-y-6">
               <p className="text-gradient-saffron text-lg leading-relaxed text-center">
                 The ideology of Satsang is a comprehensive, life-centric philosophy focusing on the balanced development of the individual mentally and spiritually, physically.
@@ -142,9 +120,7 @@ const Index = () => {
                 <p className="font-heading text-xl italic text-gradient-saffron">
                   "To uphold one's life and growth with that of others is Dharma."
                 </p>
-                <cite className="text-gradient-saffron text-sm mt-2 block">
-                  — Sree Sree Thakur Anukulchandra, Satyanusaran
-                </cite>
+                <cite className="text-gradient-saffron text-sm mt-2 block">— Sree Sree Thakur Anukulchandra, Satyanusaran</cite>
               </blockquote>
               <p className="text-gradient-saffron text-lg leading-relaxed text-center">
                 Centered around the Living Ideal, we practice Yajan (Self-adjustment), Yaajan (Nurturing others), and Ishtabhriti (Daily love-offering) to transform negative passions into constructive energy for universal well-being.
@@ -180,5 +156,4 @@ const Index = () => {
   );
 };
 
-export default Index;
 export default Index;
