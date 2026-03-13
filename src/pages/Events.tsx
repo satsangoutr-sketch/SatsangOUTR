@@ -83,14 +83,17 @@ const Events = () => {
               </div>
 
               {/* SESSION 3 */}
-              <div className="flex gap-6">
-                <div className="text-white font-semibold w-32">
-                  10:15 AM – 10:45 AM
-                </div>
- <p className="text-Black-400 text-sm">
-                    TBA
-                  </p>
-              </div>
+             <div className="flex gap-6">
+  <div className="text-white font-semibold w-32">
+    10:15 AM – 10:45 AM
+  </div>
+
+  <div className="bg-[#132a4d] p-5 rounded-lg border-r-4 border-white flex-1">
+    <p className="text-gray-400 text-sm">
+      TBA
+    </p>
+  </div>
+</div>
                 
               {/* SESSION 4 */}
               <div className="flex gap-6">
@@ -186,6 +189,7 @@ const Events = () => {
                     Take a break and enjoy a delicious lunch with great company.
                   </p>
                   </div>
+              </div>
 
                 <div className="flex gap-6">
   <div className="text-white font-semibold w-32">
@@ -239,7 +243,7 @@ const Events = () => {
     </p>
 
     {/* Moderator Box */}
-    <div className="bg-[#1f2937] p-4 rounded-lg mb-6 border-l-4 border-White-500">
+    <div className="bg-[#1f2937] p-4 rounded-lg mb-6 border-l-4 border-White">
       <p className="text-orange-400 text-xs font-bold">MODERATOR</p>
       <p className="text-white font-semibold">
         Dr. Jubilee Purkayastha
@@ -472,7 +476,7 @@ MD, EVOS buildcon Pvt. Ltd        </div>
   {/* CARD 4 */}
 <div className="bg-[#111827] p-8 rounded-2xl shadow-lg">
 
-<div className="flex items-center gap-3 mb-3">
+
 
 <div className="flex items-center gap-3 mb-3">
       <span className="bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded">
