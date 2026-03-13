@@ -1,14 +1,17 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-
+import statueClose from "@/assets/statue-close.jpeg"; //
 import templeImg from "@/assets/WhatsApp Image 2026-03-12 at 23.40.58.jpeg";
 import outrGroup from "@/assets/outr-group.png";
 
 import Layout from "@/components/Layout";
 import RegistrationDialog from "@/components/RegistrationDialog";
 import UpcomingEventCard from "@/components/UpcomingEventCard";
-
+const fadeUp = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+};
 const Index = () => {
 
   const images = [templeImg, outrGroup];
@@ -16,11 +19,12 @@ const Index = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImage((prev) => (prev + 1) % images.length);
-    }, 4000);
+  const interval = setInterval(() => {
+    setCurrentImage((prev) => (prev + 1) % images.length);
+  }, 4000);
 
-    return () => clearInterval(interval);
+  return () => clearInterval(interval);
+}, []); 
   }, [images.length]);
 
   return (
