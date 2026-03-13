@@ -267,6 +267,163 @@ const Events = () => {
                       <li>Mr. Abheek Ghosh</li>
                     </ul>
                   </div>
+                  {/* P3 */}
+<div className="bg-[#111827] p-8 rounded-2xl shadow-lg">
+
+<h3 className="text-xl font-bold text-white mb-4">
+Management, Corporate and Business with Engineering Industries
+</h3>
+
+<p className="text-gray-400 italic mb-4">
+Corporate Leadership with Conscience: Strategy, Sustainability & Long-Term Excellence
+</p>
+
+<div className="bg-[#1f2937] p-4 rounded-lg mb-4 border-l-4 border-orange-500">
+<p className="text-orange-400 text-xs font-bold">MODERATOR</p>
+<p className="text-white font-semibold">
+Mr. Surya Prakash Mahapatra
+</p>
+<div className="text-gray-400 text-xs">
+Global Head – Talent Transformation, Wipro Ltd.
+</div>
+</div>
+
+<ul className="space-y-3 text-gray-300 text-sm">
+
+<li>
+Mr. Kalinga Keshari Rath
+<div className="text-gray-400 text-xs">
+MD, EVOS Buildcon Pvt. Ltd.
+</div>
+</li>
+
+<li>
+Mr. Siddharth Das
+<div className="text-gray-400 text-xs">
+AI Engineer, Ford Motor Company, USA
+</div>
+</li>
+
+<li>
+Mr. Biswojit Gouda
+<div className="text-gray-400 text-xs">
+Senior Salesforce Consultant, Minneapolis
+</div>
+</li>
+
+<li>
+Mr. Prakruti Ranjan Sahoo
+<div className="text-gray-400 text-xs">
+IIM Raipur
+</div>
+</li>
+
+<li>
+Mr. Shirendu Banik
+<div className="text-gray-400 text-xs">
+IIM Amritsar
+</div>
+</li>
+
+<li>
+Mrs. Mahasweta Behera
+<div className="text-gray-400 text-xs">
+Manager – Customer Success
+</div>
+</li>
+
+<li>
+Er. Prasanta Kumar Panda
+<div className="text-gray-400 text-xs">
+Principal Data Scientist, TCS Bhubaneswar
+</div>
+</li>
+
+<li>
+Ms. Pratikshya Pattnaik
+<div className="text-gray-400 text-xs">
+Human Capital, Deloitte USI
+</div>
+</li>
+
+<li>
+Titash Nandi
+<div className="text-gray-400 text-xs">
+IIM Ahmedabad, Operations Design Lead at Curefit
+</div>
+</li>
+
+<li>
+Kaibalya Kumar Sahoo
+<div className="text-gray-400 text-xs">
+Assistant Manager, Odisha Hydro Power Corporation
+</div>
+</li>
+
+</ul>
+
+</div>
+                  {/* P4 */}
+<div className="bg-[#111827] p-8 rounded-2xl shadow-lg">
+
+<h3 className="text-xl font-bold text-white mb-4">
+Agriculture & Technology
+</h3>
+
+<p className="text-gray-400 italic mb-4">
+Where Flower Meets Fire
+</p>
+
+<div className="bg-[#1f2937] p-4 rounded-lg mb-4 border-l-4 border-orange-500">
+<p className="text-orange-400 text-xs font-bold">MODERATOR</p>
+<p className="text-white font-semibold">
+Dr. Hrushikesh Senapati
+</p>
+<div className="text-gray-400 text-xs">
+Former Dean, Agriculture
+</div>
+</div>
+
+<ul className="space-y-3 text-gray-300 text-sm">
+
+<li>
+Dr. Trinath Mahararana
+<div className="text-gray-400 text-xs">
+Former Professor & Head, OUAT Bhubaneswar
+</div>
+</li>
+
+<li>
+Dr. Pramod Kumar Rout
+<div className="text-gray-400 text-xs">
+Former Principal Scientist, ICAR New Delhi
+</div>
+</li>
+
+<li>
+Dr. Kalikinkar Bandyopadhyay
+<div className="text-gray-400 text-xs">
+Principal Scientist, ICAR-IIWM Bhubaneswar
+</div>
+</li>
+
+<li>
+Dr. Priya Ranjan Sahoo
+<div className="text-gray-400 text-xs">
+Aquaculture Specialist, Livingstone International University, South Africa
+</div>
+</li>
+
+<li>
+Mr. Hari Prasanna Sahoo
+<div className="text-gray-400 text-xs">
+PhD Scholar, Agriculture, BHU
+</div>
+</li>
+
+</ul>
+
+</div>
 
                 </div>
 
