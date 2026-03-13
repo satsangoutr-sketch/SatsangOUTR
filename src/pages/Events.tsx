@@ -187,16 +187,22 @@ const Events = () => {
                   </p>
                   </div>
 
-                  <div className="flex gap-6">
-                <div className="text-white font-semibold w-32">
-                  01:45 PM – 2:00 PM
-                </div>
-                    <h3 className="text-white font-bold text-lg">
-                  Rhythm & Resonance
-                  </h3>
-                    <p className="text-gray-400 text-sm">
-                    Celebrating Harmony in Life, Purpose and Career Path: A Musical Reflection by Bedashree Sahoo
-                  </p>
+                 <div className="flex gap-6">
+  <div className="text-white font-semibold w-32">
+    01:45 PM – 2:00 PM
+  </div>
+
+  <div className="bg-[#132a4d] p-5 rounded-lg border-r-4 border-white flex-1">
+    <h3 className="text-white font-bold text-lg">
+      Rhythm & Resonance
+    </h3>
+
+    <p className="text-gray-400 text-sm">
+      Celebrating Harmony in Life, Purpose and Career Path: A Musical Reflection by Bedashree Sahoo
+    </p>
+  </div>
+</div>
+                  
                     <div className="flex gap-6">
   <div className="text-white font-semibold w-32">
     02:00 PM – 4:00 PM
@@ -464,7 +470,7 @@ MD, EVOS buildcon Pvt. Ltd        </div>
       </ul>
 </div>
          {/* CARD 4 */}
-    <div className="flex items-center gap-3 mb-3">
+   <div className="bg-[#111827] p-8 rounded-2xl shadow-lg">
       <span className="bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded">
         P4
       </span>
@@ -525,7 +531,7 @@ Former Professor & Head, Odisha University of Agriculture and Technology (OUAT),
          PhD.Scholar Agriculture BHU
         </div>
       </li>
-      <li>
+      
       
       
 
