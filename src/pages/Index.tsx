@@ -8,18 +8,24 @@ import Layout from "@/components/Layout";
 import RegistrationDialog from "@/components/RegistrationDialog";
 import UpcomingEventCard from "@/components/UpcomingEventCard";
 import React, { useState, useEffect } from "react";
-import { motion } from "framer-motion";
 
+// Fade-in/out gallery images
 const scrollImages = [outrGroup, statueClose1];
+
+// Fade-up animation variant for hero text
+const fadeUp = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+};
 
 const Index = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
+  // Change gallery image every 4 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prev) => (prev + 1) % scrollImages.length);
-    }, 4000); // change image every 4 seconds
-
+    }, 4000);
     return () => clearInterval(interval);
   }, []);
 
@@ -43,15 +49,19 @@ const Index = () => {
             />
           ))}
 
-          {/* Optional overlay text */}
+          {/* Overlay Text */}
           <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
-            <h2 className="font-heading text-4xl md:text-6xl font-bold text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.7)] tracking-wider">
+            <motion.h2
+              variants={fadeUp}        // <--- now correctly defined
+              initial="hidden"
+              animate="visible"
+              className="font-heading text-4xl md:text-6xl font-bold text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.7)] tracking-wider"
+            >
               Satsang Gallery
-            </h2>
+            </motion.h2>
           </div>
         </div>
       </section>
-  
       {/* Hero */}
       <section className="relative bg-[#243447] overflow-hidden">
         <div className="absolute inset-0 opacity-5">
