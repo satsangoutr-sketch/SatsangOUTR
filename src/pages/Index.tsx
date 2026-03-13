@@ -1,12 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import templeImg from "@/assets/temple.png";
+import WhatsApp Image 2026-03-12 at 23.40.58.jpeg from "@/assets/WhatsApp Image 2026-03-12 at 23.40.58.jpeg";
 import outrGroup from "@/assets/outr-group.png";
-import statueBlue from "@/assets/statue-blue.jpeg";
-import gathering from "@/assets/gathering.png";
-import statueWhite from "@/assets/statue-white.png";
-import statueBlue2 from "@/assets/statue-blue2.png";
-import statueClose from "@/assets/statue-close.png";
 import Layout from "@/components/Layout";
 import RegistrationDialog from "@/components/RegistrationDialog";
 import UpcomingEventCard from "@/components/UpcomingEventCard";
@@ -27,27 +22,49 @@ const Index = () => {
     <Layout>
       <RegistrationDialog />
 
-      {/* Scrolling Photo Gallery */}
-      <section className="relative overflow-hidden bg-[#243447] py-3">
-        <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
-          <h2 className="font-heading text-4xl md:text-7xl font-bold text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.7)] tracking-wider"></h2>
-        </div>
+   import { useState, useEffect } from "react";
 
-        <div
-          className="flex animate-scroll-left w-max will-change-transform"
-          style={{ backfaceVisibility: "hidden" }}
-        >
-          {[...scrollImages, ...scrollImages].map((img, i) => (
-            <img
-              key={i}
-              src={img}
-              alt="Satsang gallery"
-              className="h-64 md:h-96 w-auto object-cover mx-1 rounded brightness-75"
-              loading="lazy"
-            />
-          ))}
-        </div>
-      </section>
+/* images */
+const images = [
+  "/WhatsApp Image 2026-03-12 at 23.40.58.jpeg",
+  "/outrGroup"
+];
+
+const [currentImage, setCurrentImage] = useState(0);
+
+useEffect(() => {
+  const interval = setInterval(() => {
+    setCurrentImage((prev) => (prev + 1) % images.length);
+  }, 4000); // change every 4 seconds
+
+  return () => clearInterval(interval);
+}, []);
+
+
+/* section */
+
+<section className="relative overflow-hidden bg-[#243447] py-3 h-[400px]">
+
+  <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
+    <h2 className="font-heading text-4xl md:text-7xl font-bold text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.7)] tracking-wider"></h2>
+  </div>
+
+  <div className="relative w-full h-full">
+
+    {images.map((img, index) => (
+      <img
+        key={index}
+        src={img}
+        alt="Satsang gallery"
+        className={`absolute w-full h-full object-cover transition-opacity duration-1000 ${
+          currentImage === index ? "opacity-100" : "opacity-0"
+        }`}
+      />
+    ))}
+
+  </div>
+
+</section>
 
       {/* Hero */}
       <section className="relative bg-[#243447] overflow-hidden">
