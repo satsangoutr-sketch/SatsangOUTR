@@ -1,12 +1,16 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import WhatsApp Image 2026-03-12 at 23.40.58.jpeg from "@/assets/WhatsApp Image 2026-03-12 at 23.40.58.jpeg";
+import { useState, useEffect } from "react";
+
+import templeImg from "@/assets/WhatsApp Image 2026-03-12 at 23.40.58.jpeg";
 import outrGroup from "@/assets/outr-group.png";
+
 import Layout from "@/components/Layout";
 import RegistrationDialog from "@/components/RegistrationDialog";
 import UpcomingEventCard from "@/components/UpcomingEventCard";
 
-const scrollImages = [templeImg, outrGroup, statueBlue, gathering, statueWhite];
+
+const scrollImages = [templeImg, outrGroup];
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -18,29 +22,44 @@ const fadeUp = {
 };
 
 const Index = () => {
+
+  const images = [templeImg, outrGroup];
+
+  const [currentImage, setCurrentImage] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prev) => (prev + 1) % images.length);
+    }, 4000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <Layout>
       <RegistrationDialog />
 
-   import { useState, useEffect } from "react";
+      {/* Fade Image Gallery */}
+      <section className="relative h-[450px] overflow-hidden">
 
-/* images */
-const images = [
-  "/WhatsApp Image 2026-03-12 at 23.40.58.jpeg",
-  "/outrGroup"
-];
+        {images.map((img, index) => (
+          <img
+            key={index}
+            src={img}
+            alt="gallery"
+            className={`absolute w-full h-full object-cover transition-opacity duration-1000 ${
+              currentImage === index ? "opacity-100" : "opacity-0"
+            }`}
+          />
+        ))}
 
-const [currentImage, setCurrentImage] = useState(0);
+      </section>
 
-useEffect(() => {
-  const interval = setInterval(() => {
-    setCurrentImage((prev) => (prev + 1) % images.length);
-  }, 4000); // change every 4 seconds
+    </Layout>
+  );
+};
 
-  return () => clearInterval(interval);
-}, []);
-
-
+export default Index;
 /* section */
 
 <section className="relative overflow-hidden bg-[#243447] py-3 h-[400px]">
