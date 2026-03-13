@@ -60,30 +60,6 @@ const Index = () => {
 };
 
 export default Index;
-/* section */
-
-<section className="relative overflow-hidden bg-[#243447] py-3 h-[400px]">
-
-  <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
-    <h2 className="font-heading text-4xl md:text-7xl font-bold text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.7)] tracking-wider"></h2>
-  </div>
-
-  <div className="relative w-full h-full">
-
-    {images.map((img, index) => (
-      <img
-        key={index}
-        src={img}
-        alt="Satsang gallery"
-        className={`absolute w-full h-full object-cover transition-opacity duration-1000 ${
-          currentImage === index ? "opacity-100" : "opacity-0"
-        }`}
-      />
-    ))}
-
-  </div>
-
-</section>
 
       {/* Hero */}
       <section className="relative bg-[#243447] overflow-hidden">
