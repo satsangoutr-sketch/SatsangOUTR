@@ -7,7 +7,7 @@ import gathering from "@/assets/gathering.png";
 import statueWhite from "@/assets/statue-white.png";
 import statueBlue2 from "@/assets/statue-blue2.png";
 import statueClose from "@/assets/statue-close.png";
-import Whitegroup from "@/assets/WhatsApp Image 2026-03-12 at 23.40.58.jpeg;
+import statueClose from "@/assets/WhatsApp Image 2026-03-12 at 23.40.58.jpeg";
 import Layout from "@/components/Layout";
 import RegistrationDialog from "@/components/RegistrationDialog";
 import UpcomingEventCard from "@/components/UpcomingEventCard";
