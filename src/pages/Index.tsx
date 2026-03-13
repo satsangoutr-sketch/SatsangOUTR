@@ -9,18 +9,9 @@ import Layout from "@/components/Layout";
 import RegistrationDialog from "@/components/RegistrationDialog";
 import UpcomingEventCard from "@/components/UpcomingEventCard";
 
-const images = [templeImg, outrGroup];
-
-const fadeUp = {
-  hidden: { opacity: 0, y: 30 },
-  visible: (i: number) => ({
-    opacity: 1,
-    y: 0,
-    transition: { delay: i * 0.1, duration: 0.6, ease: "easeOut" },
-  }),
-};
-
 const Index = () => {
+
+  const images = [templeImg, outrGroup];
 
   const [currentImage, setCurrentImage] = useState(0);
 
@@ -30,7 +21,7 @@ const Index = () => {
     }, 4000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [images.length]);
 
   return (
     <Layout>
@@ -43,8 +34,7 @@ const Index = () => {
           <img
             key={index}
             src={img}
-            alt={`gallery-${index}`}
-            loading="lazy"
+            alt="gallery"
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
               currentImage === index ? "opacity-100" : "opacity-0"
             }`}
