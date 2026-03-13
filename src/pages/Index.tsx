@@ -8,43 +8,46 @@ import Layout from "@/components/Layout";
 import RegistrationDialog from "@/components/RegistrationDialog";
 import UpcomingEventCard from "@/components/UpcomingEventCard";
 
-const scrollImages = [ outrGroup, statueClose1];
+import { motion } from "framer-motion";
+import { useState, useEffect } from "react";
 
-const fadeUp = {
-  hidden: { opacity: 0, y: 30 },
-  visible: (i: number) => ({
-    opacity: 1,
-    y: 0,
-    transition: { delay: i * 0.1, duration: 0.6, ease: "easeOut" as const },
-  }),
-};
+const [currentImage, setCurrentImage] = useState(0);
 
+useEffect(() => {
+  const interval = setInterval(() => {
+    setCurrentImage((prev) => (prev + 1) % scrollImages.length);
+  }, 4000); // change image every 4s
+  return () => clearInterval(interval);
+}, []);
 const Index = () => {
   return (
     <Layout>
       <RegistrationDialog />
 
       {/* Scrolling Photo Gallery */}
-      <section className="relative overflow-hidden bg-[#243447] py-3">
-        <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
-          <h2 className="font-heading text-4xl md:text-7xl font-bold text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.7)] tracking-wider"></h2>
-        </div>
-
-        <div
-          className="flex animate-scroll-left w-max will-change-transform"
-          style={{ backfaceVisibility: "hidden" }}
-        >
-          {[...scrollImages, ...scrollImages].map((img, i) => (
-            <img
-              key={i}
-              src={img}
-              alt="Satsang gallery"
-              className="h-64 md:h-96 w-auto object-cover mx-1 rounded brightness-75"
-              loading="lazy"
-            />
-          ))}
-        </div>
-      </section>
+     <section className="relative bg-[#243447] py-10 flex justify-center items-center">
+  {/* Large rectangle container */}
+  <div className="relative w-full max-w-6xl h-[400px] md:h-[600px] overflow-hidden rounded-xl shadow-lg">
+    {[...scrollImages].map((img, i) => (
+      <motion.img
+        key={i}
+        src={img}
+        alt={`Gallery ${i}`}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: i === currentImage ? 1 : 0 }}
+        transition={{ duration: 1 }}
+        className="absolute inset-0 w-full h-full object-cover"
+        loading="lazy"
+      />
+    ))}
+    {/* Optional overlay text */}
+    <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
+      <h2 className="font-heading text-4xl md:text-6xl font-bold text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.7)] tracking-wider">
+        {/* Add your title here */}
+      </h2>
+    </div>
+  </div>
+</section>
 
       {/* Hero */}
       <section className="relative bg-[#243447] overflow-hidden">
