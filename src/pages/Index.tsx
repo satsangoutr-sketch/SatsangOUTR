@@ -7,12 +7,19 @@ import statueClose1 from "@/assets/WhatsApp Image 2026-03-12 at 23.40.58.jpeg";
 import Layout from "@/components/Layout";
 import RegistrationDialog from "@/components/RegistrationDialog";
 import UpcomingEventCard from "@/components/UpcomingEventCard";
+import React, { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 
+import Layout from "@/components/Layout";
+import RegistrationDialog from "@/components/RegistrationDialog";
+
+// Your images
+import outrGroup from "@/assets/outr-group.png";
+import statueClose1 from "@/assets/statue-close.jpeg";
 
 const scrollImages = [outrGroup, statueClose1];
 
 const Index = () => {
-  // Hooks must be inside the component
   const [currentImage, setCurrentImage] = useState(0);
 
   useEffect(() => {
@@ -46,13 +53,12 @@ const Index = () => {
           {/* Optional overlay text */}
           <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
             <h2 className="font-heading text-4xl md:text-6xl font-bold text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.7)] tracking-wider">
-              {/* Add your title here */}
               Satsang Gallery
             </h2>
           </div>
         </div>
       </section>
-
+  
       {/* Hero */}
       <section className="relative bg-[#243447] overflow-hidden">
         <div className="absolute inset-0 opacity-5">
