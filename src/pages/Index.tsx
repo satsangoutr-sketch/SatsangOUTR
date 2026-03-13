@@ -109,13 +109,13 @@ const Index = () => {
              
 
               <a
-                href="https://www.satsang.org.in/home"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-8 py-3 rounded-lg bg-white text-gradient-saffron font-medium hover:opacity-90 transition-opacity"
-              >
-                Visit Official Website
-              </a>
+  href="https://www.satsang.org.in/home"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-full md:w-96 h-20 flex items-center justify-center bg-white text-gradient-saffron font-bold text-xl shadow-lg hover:opacity-90 transition-opacity rounded-lg"
+>
+  Visit Official Website
+</a>
             </motion.div>
           </motion.div>
         </div>
