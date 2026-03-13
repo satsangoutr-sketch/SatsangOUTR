@@ -120,15 +120,7 @@ const Events = () => {
                 </h3>
 
                 <ul className="space-y-2 text-gray-300 text-sm">
-
-                  <li>
-                    Dr. Jubilee Purkayastha
-                    <div className="text-gray-400 text-xs">
-                      Scientist & Joint Director, INMAS DRDO
-                    </div>
-                  </li>
-
-                  <li>
+ <li>
                     Dr. Pravakar Mohanty
                     <div className="text-gray-400 text-xs">
                       Scientist ‘E’, Department of Science & Technology
@@ -239,10 +231,34 @@ const Events = () => {
 
                     <ul className="space-y-2 text-gray-300 text-sm">
                       <li>Lt. Raj Kumar Thakur</li>
+                      <div className="text-gray-400 text-xs">
+Armed Forces
+</div>
                       <li>Mr. Shantanu Singh</li>
+                      <div className="text-gray-400 text-xs">
+Second Secretary Embassy of India Bratislava, Slova Republic
+</div>
                       <li>Mr. Pradyumna Mohapatra</li>
+                      <div className="text-gray-400 text-xs">
+IES, General Manager,ITS,BSNL,Balasore, Govt. Of India 
+</div>
                       <li>Dr. Pravakar Mohanty</li>
+                      <div className="text-gray-400 text-xs">
+Scientist ‘E’ & Joint Director (R&D), Department of Science & Technology, Government of India
+</div>
+                      
                       <li>Mr. Purusottam Mishra</li>
+                      <div className="text-gray-400 text-xs">
+(OAS) Assistant Collector, Balasore, Govt.Of Odisha
+</div>
+                        <li>	Er.Pratyush Kumar Pradhan </li>
+                      <div className="text-gray-400 text-xs">
+Supreintending Engineer,Water Resource Development, Govt.Of Odisha
+</div>
+                        <li>Mr. Narasingha Jethi </li>
+                      <div className="text-gray-400 text-xs">
+IES,DDG Prasar Bharati, Govt. Of india
+</div>
                     </ul>
                   </div>
 
@@ -261,10 +277,29 @@ const Events = () => {
 
                     <ul className="space-y-2 text-gray-300 text-sm">
                       <li>Dr. Lingaraj Sahoo</li>
-                      <li>Dr. Batakrushna Tripathy</li>
+                       <div className="text-gray-400 text-xs">
+Professor, Dept. of Bioscience and Bioengineering, IIT Guwahati & Adj.Prof. Jifu University, JAPAN 
+</div>
+                       <li>Dr. Batakrishna Tripathy</li>
+                       <div className="text-gray-400 text-xs">
+Assistant Prof. ITER,SOA
+</div>
                       <li>Mr. Sanchari Kundu</li>
+                       <div className="text-gray-400 text-xs">
+Assistant Prof. ITER,SOA
+</div>
                       <li>Dr. Sudhanshu Sekhar Sahoo</li>
-                      <li>Mr. Abheek Ghosh</li>
+                       <div className="text-gray-400 text-xs">
+ Prof. OUTR
+</div>
+                      <li>Dr. Abheek Ghosh</li>
+                     <div className="text-gray-400 text-xs">
+ PostDoctoral fellow, University Of OXford,UK
+</div>
+                      <li>Mr. Rishikeshan Pradhan </li>
+                     <div className="text-gray-400 text-xs">
+ PhD. Scholar, NISER BBSR
+</div>
                     </ul>
                   </div>
                   {/* P3 */}
@@ -457,42 +492,153 @@ PhD Scholar, Agriculture, BHU
       {/* Grid Boxes */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="bg-[#1f2a36] p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-          <h4 className="text-xl font-bold text-gradient-saffron mb-3">Engineering</h4>
+          <h4 className="text-xl font-bold text-gradient-saffron mb-3">Civil,Staff & Defence</h4>
           <ul className="list-disc list-inside space-y-1 text-white">
-            <li>Mechanical</li>
-            <li>Civil</li>
-            <li>Computer Science</li>
-            <li>Electrical</li>
+            
+                      <li>1.	Lt. Raj Kumar Thakur</li>
+                       <div className="text-gray-400 text-xs">
+ Armed Forces
+</div>
+             <li>2.	Mr. Shantanu Singh</li>
+                       <div className="text-gray-400 text-xs">
+ Officer, Indian Foreign Services (IFS), UPSC, Civil Services,Government of India
+</div>
+             <li>3.	Mr.Pradyumna Mohapatra </li>
+                       <div className="text-gray-400 text-xs">
+ IES, General Manager,ITS,BSNL,Balasore, Govt. Of India 
+</div>
+ <li>4.	Dr. Pravakar Mohanty </li>
+                       <div className="text-gray-400 text-xs">
+Scientist ‘E’ & Joint Director (R&D), Department of Science & Technology, Government of India
+</div>
+             <li>5.	Mr.Purusottam Mishra  </li>
+                       <div className="text-gray-400 text-xs">
+(OAS) Assistant Collector, Balasore, Govt.Of Odisha
+</div>
+            
+      <li>6.	Er.Pratyush Kumar Pradhan   </li>
+                       <div className="text-gray-400 text-xs">
+Supreintending Engineer,Water Resource Development, Govt.Of Odisha
+</div> 
+            <li>7.	Dr. Jubilee Purkayastha   </li>
+                       <div className="text-gray-400 text-xs">
+Scientist F & Joint Director, INMAS DRDO
+</div>
           </ul>
         </div>
 
         <div className="bg-[#1f2a36] p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-          <h4 className="text-xl font-bold text-gradient-saffron mb-3">Medical</h4>
+          <h4 className="text-xl font-bold text-gradient-saffron mb-3">Management & Engineering Industries</h4>
           <ul className="list-disc list-inside space-y-1 text-white">
-            <li>MBBS</li>
-            <li>BDS</li>
-            <li>Pharmacy</li>
-            <li>Nursing</li>
+            <li>1.	Mr. Surya Prakash Mahapatra  </li>
+                       <div className="text-gray-400 text-xs">
+Global Head – Talent Transformation, Wipro Ltd.
+</div>
+             <li>2.	Mr.Kalinga Keshari Rath  </li>
+                       <div className="text-gray-400 text-xs">
+MD, EVOS buildcon Pvt.Ltd.
+</div>
+            <li>3.	Mr.Siddharth Das   </li>
+                       <div className="text-gray-400 text-xs">
+AI Engineer at FORD, USA
+</div>
+            <li>4.	Mr.Biswojit Gouda  </li>
+                       <div className="text-gray-400 text-xs">
+Seniour Salesforce Consultant ,Minneapolis
+</div>
+            <li>5.	Mr.Parkruti Ranjan Sahoo   </li>
+                       <div className="text-gray-400 text-xs">
+IIM Raipur
+</div>
+            <li>6.	Mr.Shirendu Banik  </li>
+                       <div className="text-gray-400 text-xs">
+IIM Amritsar
+</div>
+            <li>7.	Mrs.Mahasweta Behera  </li>
+                       <div className="text-gray-400 text-xs">
+Manager,Customer Success
+</div>
+            <li>8.	Er. Prasanta Kumar Panda </li>
+                       <div className="text-gray-400 text-xs">
+Principal Data Scientist ,TCS, Bhubaneswar
+</div>
+            <li>9.	Ms.Pratikshya Pattnaik   </li>
+                       <div className="text-gray-400 text-xs">
+Human Capital at Dellolite USI
+</div>
+            <li>10.	Titash Nandi   </li>
+                       <div className="text-gray-400 text-xs">
+IIM Ahmedabad, Operation Design Lead at Curefit /Ex Consultant DELOITTE
+</div>
+            <li>11.	Kaibalya Kumar Sahoo   </li>
+                       <div className="text-gray-400 text-xs">
+Assistant Manager at Odisha Hydro Power Corporation
+</div>\
           </ul>
         </div>
 
         <div className="bg-[#1f2a36] p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-          <h4 className="text-xl font-bold text-gradient-saffron mb-3">Management</h4>
+          <h4 className="text-xl font-bold text-gradient-saffron mb-3">Higher Education & Research</h4>
           <ul className="list-disc list-inside space-y-1 text-white">
-            <li>MBA</li>
-            <li>BBA</li>
-            <li>Finance</li>
-            <li>Marketing</li>
+<li>1.	Dr. Sutanu Chakraborty  </li>
+                       <div className="text-gray-400 text-xs">
+Professor, Department of Computer Science & Engineering, IIT Madras
+</div>
+            <li>2.	Dr.Lingaraj Sahoo   </li>
+                       <div className="text-gray-400 text-xs">
+Professor, Dept. of Bioscience   and Bioengineering, IIT Guwahati & Adj.Prof. Jifu University, JAPAN
+</div>
+            <li>3.	Dr.Abheek Ghosh   </li>
+                       <div className="text-gray-400 text-xs">
+PhD. Scholar, Oxford university
+</div>
+            <li>4.	Mr. Rishikeshan Pradhan   </li>
+                       <div className="text-gray-400 text-xs">
+PhD. Scholar, NISER BBSR
+</div>
+            <li>5.	Mr.Sanchari Kundu   </li>
+                       <div className="text-gray-400 text-xs">
+PhD.Scholar, virgenia tech USA
+</div>
+            <li>6.	Sudhanshu Sekhar Sahoo </li>
+                       <div className="text-gray-400 text-xs">
+Prof. OUTR
+</div>
+            <li>7.	Dr. Batakrishna Tripathy  </li>
+                       <div className="text-gray-400 text-xs">
+Assistant Prof. SOA
+</div>
+          
           </ul>
         </div>
 
         <div className="bg-[#1f2a36] p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-          <h4 className="text-xl font-bold text-gradient-saffron mb-3">Arts & Science</h4>
+          <h4 className="text-xl font-bold text-gradient-saffron mb-3">Agricultural Technology</h4>
           <ul className="list-disc list-inside space-y-1 text-white">
-            <li>Physics</li>
-            <li>Chemistry</li>
-            <li>Psychology</li>
-            <li>Literature</li>
+           <li>1.	Dr. Hrushikesh Senapati   </li>
+                       <div className="text-gray-400 text-xs">
+Former Dean, Agriculture
+</div>
+            <li>22.	 Dr.Trinath Mahararana </li>
+                       <div className="text-gray-400 text-xs">
+Former Professor & Head,    Odisha University of Agriculture and Technology (OUAT), Bhubaneswar.
+</div>
+            <li>3.	Dr.Pramod Kumar Rout </li>
+                       <div className="text-gray-400 text-xs">
+Former Principal Scientist (Animal Science), Indian Council of Agricultural Research (ICAR), New Delhi
+</div>
+            <li>4. Dr.Kalikinkar Bandyopadhyay </li>
+                       <div className="text-gray-400 text-xs">
+Principal Scientist, ICAR -Indian Institute of Water Management (IIWM), Bhubaneswar
+</div>
+            <li>5.	Dr.Priya Ranjan Sahoo </li>
+                       <div className="text-gray-400 text-xs">
+Aquaculture Specialist, Living Stone International University, South Africa
+</div>
+            <li>6.	Mr.Hari Prasanna Sahoo   </li>
+                       <div className="text-gray-400 text-xs">
+PhD.Scholar Agriculture BHU
+</div>
           </ul>
         </div>
       </div>
