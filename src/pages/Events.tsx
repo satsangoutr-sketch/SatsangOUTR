@@ -34,7 +34,7 @@ const Events = () => {
             </a>
           </div>
 
-          <h2 className="text-2xl font-bold text-black mb-6 text-center">
+          <h2 className="text-5xl font-bold text-white mb-6 text-center">
             Event Schedule
           </h2>
 
