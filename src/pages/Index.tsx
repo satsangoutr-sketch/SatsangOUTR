@@ -10,13 +10,6 @@ import UpcomingEventCard from "@/components/UpcomingEventCard";
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
-import Layout from "@/components/Layout";
-import RegistrationDialog from "@/components/RegistrationDialog";
-
-// Your images
-import outrGroup from "@/assets/outr-group.png";
-import statueClose1 from "@/assets/statue-close.jpeg";
-
 const scrollImages = [outrGroup, statueClose1];
 
 const Index = () => {
