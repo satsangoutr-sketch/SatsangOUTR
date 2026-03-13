@@ -221,7 +221,7 @@ const Events = () => {
                 <div className="grid md:grid-cols-2 gap-8">
 
                   {/* P1 */}
-                  <div className="bg-[#0b1e3a] p-8 rounded-2xl shadow-lg">
+                  <div className="bg-[#111827] p-8 rounded-2xl shadow-lg">
                     <h3 className="text-xl font-bold text-white mb-4">
                       Civil, Staff & Defence Services
                     </h3>
