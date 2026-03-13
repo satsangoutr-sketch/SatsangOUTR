@@ -35,7 +35,7 @@ const Index = () => {
 
       {/* Fade Image Gallery */}
       <section className="relative bg-[#243447] py-10 flex justify-center items-center">
-        <div className="relative w-full max-w-12xl h-[400px] md:h-[600px] overflow-hidden rounded-xl shadow-lg">
+        <div className="relative w-full max-w-10xl h-[500px] md:h-[600px] overflow-hidden rounded-xl shadow-lg">
           {scrollImages.map((img, i) => (
             <motion.img
               key={i}
