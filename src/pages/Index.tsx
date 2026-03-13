@@ -106,12 +106,7 @@ const Index = () => {
               variants={fadeUp}
               className="flex flex-wrap justify-center gap-4"
             >
-              <Link
-                to="/about"
-                className="px-8 py-3 rounded-lg bg-saffron-gradient text-white font-medium shadow-saffron hover:opacity-90 transition-opacity"
-              >
-                Learn More
-              </Link>
+             
 
               <a
                 href="https://www.satsang.org.in/home"
