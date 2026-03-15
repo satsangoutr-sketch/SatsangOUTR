@@ -60,7 +60,7 @@ const RegistrationDialog = () => {
               </DialogTitle>
 
               <DialogDescription className="text-center text-white/80 text-sm">
-                A Comprehensive Career Counselling Seminar is coming up!
+                A Comprehensive Career Counselling Seminar!
               </DialogDescription>
             </DialogHeader>
 
