@@ -133,7 +133,8 @@ Career guidance for conscious Youth
 
                   <li>
                     <strong>Interactive Q & A Session</strong>
-                   < div className="text-gray-400 text-xs">(Moderated discussion with all speakers)  </div
+                   < div className="text-gray-400 text-xs">
+                     (Moderated discussion with all speakers)  </div
                   </li>
 
                 </ul>
