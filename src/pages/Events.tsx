@@ -133,8 +133,9 @@ Career guidance for conscious Youth
 
                   <li>
                     <strong>Interactive Q & A Session</strong>
-                   < div className="text-gray-400 text-xs">
-                     (Moderated discussion with all speakers)  </div
+                 <div className="text-gray-400 text-xs">
+  (Moderated discussion with all speakers)
+</div>
                   </li>
 
                 </ul>
@@ -306,8 +307,7 @@ Mindset, and Strategy for the next decade”
 Mr. Surya Prakash Mahapatra
 </p>
 <div className="text-gray-400 text-xs">
-(Global Head –Talent 
-Transformation, Wipro Ltd.)
+(Global Head –Talent Transformation, Wipro Ltd.)
 </div>
 </div>
 
