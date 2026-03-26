@@ -75,18 +75,63 @@ const Events = () => {
               <div className="text-white font-semibold w-32">
                 11:00 AM – 01:00 PM
               </div>
+
               <div className="bg-[#132a4d] p-5 rounded-lg border-r-4 border-white flex-1">
                 <h3 className="text-white font-bold">
                   Career Counselling Sessions
                 </h3>
 
-                <ul className="space-y-2 text-gray-300 text-sm mt-2">
-                  <li>11:00 – 11:25 → Mr. Surya Prakash Mahapatra</li>
-                  <li>11:25 – 11:50 → Dr. Sutanu Chakraborty</li>
-                  <li>11:50 – 12:15 → Mr. Kalinga Keshari Rath</li>
-                  <li>12:15 – 12:40 → Dr. Jubilee Purkayastha</li>
-                  <li>12:40 – 01:00 → Dr. Pravakar Mohanty</li>
-                  <li className="font-semibold">Interactive Q&A Session</li>
+                <ul className="space-y-4 text-gray-300 text-sm mt-3">
+
+                  <li>
+                    <span className="font-semibold text-white">
+                      11:00 – 11:25 → Mr. Surya Prakash Mahapatra
+                    </span>
+                    <div className="text-gray-400 text-xs">
+                      “From career confusion to career clarity”
+                    </div>
+                  </li>
+
+                  <li>
+                    <span className="font-semibold text-white">
+                      11:25 – 11:50 → Dr. Sutanu Chakraborty
+                    </span>
+                    <div className="text-gray-400 text-xs">
+                      “Your ‘Y’earning within: making the ‘Y’ (WHY) matter”
+                    </div>
+                  </li>
+
+                  <li>
+                    <span className="font-semibold text-white">
+                      11:50 – 12:15 → Mr. Kalinga Keshari Rath
+                    </span>
+                    <div className="text-gray-400 text-xs">
+                      Entrepreneurship in youth generation
+                    </div>
+                  </li>
+
+                  <li>
+                    <span className="font-semibold text-white">
+                      12:15 – 12:40 → Dr. Jubilee Purkayastha
+                    </span>
+                    <div className="text-gray-400 text-xs">
+                      The philosophy of right livelihood: Career guidance for conscious youth
+                    </div>
+                  </li>
+
+                  <li>
+                    <span className="font-semibold text-white">
+                      12:40 – 01:00 → Dr. Pravakar Mohanty
+                    </span>
+                    <div className="text-gray-400 text-xs">
+                      “STEM” – when our curiosity drives career success
+                    </div>
+                  </li>
+
+                  <li className="font-semibold text-white">
+                    Interactive Q & A Session
+                  </li>
+
                 </ul>
               </div>
             </div>
@@ -111,12 +156,12 @@ const Events = () => {
                   Rhythm & Resonance
                 </h3>
                 <p className="text-gray-400 text-sm">
-                  Musical reflection by Kamalakhya Parida, Bedashree Aparna Sahoo & Dipta S. Mohanty
+                  Kamalakhya Parida, Bedashree Aparna Sahoo & Dipta S. Mohanty
                 </p>
               </div>
             </div>
 
-            {/* PLENARY BLOCK */}
+            {/* PLENARY */}
             <div className="flex gap-6">
               <div className="text-white font-semibold w-32">
                 02:00 – 05:00 PM
@@ -130,44 +175,30 @@ const Events = () => {
                 <div className="grid md:grid-cols-2 gap-6">
 
                   <div className="bg-[#111827] p-6 rounded-xl">
-                    <h4 className="text-white font-bold">
-                      02:00 – 02:40 PM
-                    </h4>
+                    <h4 className="text-white font-bold">02:00 – 02:40 PM</h4>
                     <p className="text-gray-300">Civil & Defence Services</p>
                   </div>
 
                   <div className="bg-[#111827] p-6 rounded-xl">
-                    <h4 className="text-white font-bold">
-                      02:45 – 03:25 PM
-                    </h4>
-                    <p className="text-gray-300">
-                      Higher Education & Research
-                    </p>
+                    <h4 className="text-white font-bold">02:45 – 03:25 PM</h4>
+                    <p className="text-gray-300">Higher Education & Research</p>
                   </div>
 
                   <div className="bg-[#111827] p-6 rounded-xl">
-                    <h4 className="text-white font-bold">
-                      03:30 – 04:10 PM
-                    </h4>
-                    <p className="text-gray-300">
-                      Management & Corporate
-                    </p>
+                    <h4 className="text-white font-bold">03:30 – 04:10 PM</h4>
+                    <p className="text-gray-300">Management & Corporate</p>
                   </div>
 
                   <div className="bg-[#111827] p-6 rounded-xl">
-                    <h4 className="text-white font-bold">
-                      04:15 – 04:55 PM
-                    </h4>
-                    <p className="text-gray-300">
-                      Agriculture & Technology
-                    </p>
+                    <h4 className="text-white font-bold">04:15 – 04:55 PM</h4>
+                    <p className="text-gray-300">Agriculture & Technology</p>
                   </div>
 
                 </div>
               </div>
             </div>
 
-            {/* PARALLEL SESSION */}
+            {/* PARALLEL */}
             <div className="flex gap-6">
               <div className="text-white font-semibold w-32">
                 02:00 – 05:00 PM
@@ -192,6 +223,16 @@ const Events = () => {
                   Vote of Thanks by Dr. Sanat Kumar Sahoo
                 </p>
               </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </Layout>
+  );
+};
+
+export default Events;
             </div>
 
           </div>
