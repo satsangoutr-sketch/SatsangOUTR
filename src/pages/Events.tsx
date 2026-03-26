@@ -87,8 +87,7 @@ const Events = () => {
 
                 <ul className="space-y-2 text-gray-300 text-sm">
  <li>
-                   11:00 Am-11:25 AM  →  Mr. Surya Prakash Mahapatra (Global Head of
-AI Skilling, Wipro Ltd) 
+                   11:00 Am-11:25 AM : Mr. Surya Prakash Mahapatra (Global Head ofAI Skilling, Wipro Ltd) 
                     <div className="text-gray-400 text-xs">
                     Topic: “From career confusion to career 
 clarity”
@@ -96,10 +95,8 @@ clarity”
                   </li>
 
                   <li>
-                    11:25 Am-11:50 AM  → Dr. Sutanu Chakraborty
-(Professor, Department of Computer Science & 
-Engineering, Indian Institute of Technology (IIT)
-Madras)
+                    11:25 Am-11:50 AM : Dr. Sutanu Chakraborty
+(Professor, Department of Computer Science & Engineering, Indian Institute of Technology (IIT)Madras)
                     <div className="text-gray-400 text-xs">
                     Topic: “Y”our “Y”earning within: making the 
 “Y” (WHY) matter”
@@ -107,16 +104,16 @@ Madras)
                   </li>
 
                   <li>
-                    11:50 Am-12:15 PM  → Mr. Kalinga Keshari Rath 
-                    <div className="text-gray-400 text-xs">(MD, EVOS Buildcon 
-Pvt. Ltd.) </div>
+                    11:50 Am-12:15 PM :  Mr. Kalinga Keshari Rath 
+                    <div className="text-gray-400 text-xs">(MD, EVOS Buildcon Pvt. Ltd.)
+                    </div>
                     <div className="text-gray-400 text-xs">
                       Topic: Entrepreneurship in youth generation
                     </div>
                   </li>
 
                             <li>
-                    11:15 PM-12:40 PM  → Dr. Jubilee Purkayastha
+                    12:15 PM-12:40 PM : Dr. Jubilee Purkayastha
                     <div className="text-gray-400 text-xs">(Scientist F & Joint 
 Director, INMAS DRDO ,Ministry Of Defence , 
 Govt. OF India)  </div>
@@ -127,19 +124,16 @@ Career guidance for conscious Youth
                   </li>
 
                  <li>
-                    11:15 PM-12:40 PM  →  Dr. Pravakar Mohanty
-                    <div className="text-gray-400 text-xs">(Scientist ‘E’ & Joint Director (R&D), 
-Department of Science & Technology, 
-Government of India)   </div>
+                    12:40 PM-1:00 PM : Dr. Pravakar Mohanty
+                    <div className="text-gray-400 text-xs">(Scientist ‘E’ & Joint Director (R&D), Department of Science & Technology, Government of India)   </div>
                     <div className="text-gray-400 text-xs">
-                      Topic: “STEM”-when our curiosity drives 
-career success
+                      Topic: “STEM”-when our curiosity drives career success
                     </div>
                   </li>
 
                   <li>
                     <strong>Interactive Q & A Session</strong>
-                    div className="text-gray-400 text-xs">(Moderated discussion with all speakers)  </div
+                   < div className="text-gray-400 text-xs">(Moderated discussion with all speakers)  </div
                   </li>
 
                 </ul>
@@ -245,6 +239,7 @@ Scientist F & Joint Director, INMAS DRDO ,Ministry Of Defence , Govt. OF India
 (Superintending Engineer, Water Resource Department, Govt. of Odisha)
 </div>
                         <li>Mr. Narasingha Jethi </li>
+                      <div className="text-gray-400 text-xs">
                       (IES, DDG, DD ODIA, Prasar Bharati, Govt of India)
 </div>
                     </ul>
@@ -414,7 +409,9 @@ Dr. Kalikinkar Bandyopadhyay
 Dr. Priya Ranjan Sahoo
 <div className="text-gray-400 text-xs">
 (Aquaculture Specialist, Living Stone International University, South Africa)
+  </div>
 </li>
+
 
 <li>
 Mr. Hari Prasanna Sahoo
