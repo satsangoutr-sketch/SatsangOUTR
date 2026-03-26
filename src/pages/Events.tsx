@@ -96,16 +96,18 @@ clarity”
 
                   <li>
                     11:25 Am-11:50 AM : Dr. Sutanu Chakraborty
-(Professor, Department of Computer Science & Engineering, Indian Institute of Technology (IIT)Madras)
                     <div className="text-gray-400 text-xs">
-                    Topic: “Y”our “Y”earning within: making the 
-“Y” (WHY) matter”
+(Professor, Department of Computer Science & Engineering, Indian Institute of Technology (IIT)Madras) </div>
+                  
+                    <div className="text-gray-400 text-xs">
+                    Topic: “Y”our “Y”earning within: making the “Y” (WHY) matter”
                     </div>
                   </li>
 
                   <li>
                     11:50 Am-12:15 PM :  Mr. Kalinga Keshari Rath 
-                    <div className="text-gray-400 text-xs">(MD, EVOS Buildcon Pvt. Ltd.)
+                    <div className="text-gray-400 text-xs">
+                      (MD, EVOS Buildcon Pvt. Ltd.)
                     </div>
                     <div className="text-gray-400 text-xs">
                       Topic: Entrepreneurship in youth generation
@@ -114,18 +116,17 @@ clarity”
 
                             <li>
                     12:15 PM-12:40 PM : Dr. Jubilee Purkayastha
-                    <div className="text-gray-400 text-xs">(Scientist F & Joint 
-Director, INMAS DRDO ,Ministry Of Defence , 
-Govt. OF India)  </div>
                     <div className="text-gray-400 text-xs">
-                      Topic: The philosophy of right livelihood: 
-Career guidance for conscious Youth
+                      (Scientist F & Joint Director, INMAS DRDO ,Ministry Of Defence , Govt. OF India)  </div>
+                    <div className="text-gray-400 text-xs">
+                      Topic: The philosophy of right livelihood: Career guidance for conscious Youth
                     </div>
                   </li>
 
                  <li>
                     12:40 PM-1:00 PM : Dr. Pravakar Mohanty
-                    <div className="text-gray-400 text-xs">(Scientist ‘E’ & Joint Director (R&D), Department of Science & Technology, Government of India)   </div>
+                    <div className="text-gray-400 text-xs">
+                      (Scientist ‘E’ & Joint Director (R&D), Department of Science & Technology, Government of India)   </div>
                     <div className="text-gray-400 text-xs">
                       Topic: “STEM”-when our curiosity drives career success
                     </div>
@@ -252,6 +253,9 @@ Scientist F & Joint Director, INMAS DRDO ,Ministry Of Defence , Govt. OF India
                     <h3 className="text-xl font-bold text-white mb-4">
                       Higher Education & Research (2:45 PM - 3:25Pm)
                     </h3>
+ <p className="text-gray-400 italic mb-4">
+                      Theme : “The Research Practice Nexus : Aligning ‘y’ ourselves with Purpose”
+                    </p>
 
                     <div className="bg-[#1f2937] p-4 rounded-lg mb-4 border-l-4 border-orange-500">
                       <p className="text-orange-400 text-xs font-bold">MODERATOR</p>
