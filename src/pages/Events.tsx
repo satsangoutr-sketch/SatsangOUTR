@@ -24,14 +24,9 @@ const Events = () => {
 
           {/* REGISTER BUTTON */}
           <div className="text-center mb-16">
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfHAY_jPzZibZcqvQRCHFgbsoCZAi-n0Ub69L4HrjqUpLQuVQ/viewform"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-8 py-6 bg-[#0b1e3a] hover:bg-[#0b1e3a] text-white font-semibold rounded-lg transition"
-            >
-              Register Now
-            </a>
+           
+              Registration closed
+         
           </div>
 
           <h2 className="text-5xl font-bold text-white mb-6 text-center">
