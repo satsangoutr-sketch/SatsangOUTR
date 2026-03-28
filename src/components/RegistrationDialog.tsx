@@ -14,7 +14,7 @@ const RegistrationDialog = () => {
 
   const targetDate = new Date("2026-03-28T09:00:00").getTime();
   const [timeLeft, setTimeLeft] = useState(targetDate - new Date().getTime());
-
+const isLive = timeLeft <= 0;
   useEffect(() => {
     const dismissed = sessionStorage.getItem("registration-dismissed");
     if (!dismissed) {
@@ -23,14 +23,14 @@ const RegistrationDialog = () => {
     }
   }, []);
 
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setTimeLeft(targetDate - new Date().getTime());
-    }, 1000);
+useEffect(() => {
+  const timer = setInterval(() => {
+    const remaining = targetDate - new Date().getTime();
+    setTimeLeft(remaining > 0 ? remaining : 0);
+  }, 1000);
 
-    return () => clearInterval(timer);
-  }, []);
-
+  return () => clearInterval(timer);
+}, []);
   const handleClose = () => {
     setOpen(false);
     sessionStorage.setItem("registration-dismissed", "true");
@@ -65,24 +65,32 @@ const RegistrationDialog = () => {
             </DialogHeader>
 
             {/* Countdown */}
-            <div className="mt-4 grid grid-cols-4 gap-2 text-center">
-              <div className="bg-black/70 rounded-lg p-2">
-                <div className="text-lg font-bold">{days}</div>
-                <div className="text-xs text-white/70">Days</div>
-              </div>
-              <div className="bg-black/70 rounded-lg p-2">
-                <div className="text-lg font-bold">{hours}</div>
-                <div className="text-xs text-white/70">Hours</div>
-              </div>
-              <div className="bg-black/70 rounded-lg p-2">
-                <div className="text-lg font-bold">{minutes}</div>
-                <div className="text-xs text-white/70">Minutes</div>
-              </div>
-              <div className="bg-black/70 rounded-lg p-2">
-                <div className="text-lg font-bold">{seconds}</div>
-                <div className="text-xs text-white/70">Seconds</div>
-              </div>
-            </div>
+            {isLive ? (
+  <div className="mt-4 text-center">
+    <div className="text-xl font-bold text-green-400 animate-pulse">
+      🚀 EVENT IS LIVE
+    </div>
+  </div>
+) : (
+  <div className="mt-4 grid grid-cols-4 gap-2 text-center">
+    <div className="bg-black/70 rounded-lg p-2">
+      <div className="text-lg font-bold">{days}</div>
+      <div className="text-xs text-white/70">Days</div>
+    </div>
+    <div className="bg-black/70 rounded-lg p-2">
+      <div className="text-lg font-bold">{hours}</div>
+      <div className="text-xs text-white/70">Hours</div>
+    </div>
+    <div className="bg-black/70 rounded-lg p-2">
+      <div className="text-lg font-bold">{minutes}</div>
+      <div className="text-xs text-white/70">Minutes</div>
+    </div>
+    <div className="bg-black/70 rounded-lg p-2">
+      <div className="text-lg font-bold">{seconds}</div>
+      <div className="text-xs text-white/70">Seconds</div>
+    </div>
+  </div>
+)}
 
             <div className="space-y-2 pt-4 text-sm">
               <div className="flex items-center gap-2 text-white/90">
