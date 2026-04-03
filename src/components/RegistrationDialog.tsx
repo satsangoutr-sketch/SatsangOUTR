@@ -18,12 +18,14 @@ const isLive = timeLeft <= 0;
   useEffect(() => {
     const dismissed = sessionStorage.getItem("registration-dismissed");
     if (!dismissed) {
-      const timer = setTimeout(() => setOpen(true), 1000);
+      const timer = setTimeout(() => setOpen(false), 1000);
       return () => clearTimeout(timer);
     }
   }, []);
 
 useEffect(() => {
+  // ❌ removed auto popup trigger
+}, []);
   const timer = setInterval(() => {
     const remaining = targetDate - new Date().getTime();
     setTimeLeft(remaining > 0 ? remaining : 0);
