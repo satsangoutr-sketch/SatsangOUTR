@@ -23,9 +23,8 @@ const isLive = timeLeft <= 0;
     }
   }, []);
 
-useEffect(() => {
-  // ❌ removed auto popup trigger
-}, []);
+useEffect(() => 
+ []);
   const timer = setInterval(() => {
     const remaining = targetDate - new Date().getTime();
     setTimeLeft(remaining > 0 ? remaining : 0);
@@ -44,7 +43,7 @@ useEffect(() => {
   const seconds = Math.floor((timeLeft / 1000) % 60);
 
   return (
-   <Dialog open={open} onOpenChange={(v) => { if (!v) handleClose(); }}>
+   <Dialog open={false} onOpenChange={(v) => { if (!v) handleClose(); }}>
       
       <DialogContent className="sm:max-w-lg p-0 overflow-hidden border-0 bg-black text-white">
 
