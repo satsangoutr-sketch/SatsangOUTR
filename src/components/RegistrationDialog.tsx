@@ -42,7 +42,7 @@ useEffect(() => {
   const seconds = Math.floor((timeLeft / 1000) % 60);
 
   return (
-    <Dialog open={open} onOpenChange={(v) => { if (!v) handleClose(); }}>
+//    <Dialog open={open} onOpenChange={(v) => { if (!v) handleClose(); }}>
       
       <DialogContent className="sm:max-w-lg p-0 overflow-hidden border-0 bg-black text-white">
 
