@@ -138,58 +138,7 @@ const Index = () => {
       {/* Upcoming Events */}
       <UpcomingEventCard />
 
-      {/* Our Philosophy */}
-      <section className="py-20 bg-[#243447]">
-        <div className="container mx-auto px-4">
-          <motion.div
-            className="max-w-4xl mx-auto"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            <h2 className="font-heading text-3xl md:text-4xl font-bold text-center mb-4 text-gradient-saffron">
-              OUR <span className="text-gradient-saffron">PHILOSOPHY</span>
-            </h2>
-
-            <h3 className="font-heading text-2xl text-center text-gradient-saffron mb-8">
-              Being and Becoming
-            </h3>
-
-            <div className="max-w-3xl mx-auto space-y-6">
-              <p className="text-gradient-saffron text-lg leading-relaxed text-center">
-                The ideology of Satsang is a comprehensive, life-centric
-                philosophy focusing on the balanced development of the
-                individual mentally and spiritually, physically.
-              </p>
-
-              <blockquote className="border-l-4 border-orange-400 pl-6 py-2">
-                <p className="font-heading text-xl italic text-gradient-saffron">
-                  "To uphold one's life and growth with that of others is
-                  Dharma."
-                </p>
-
-                <cite className="text-gradient-saffron text-sm mt-2 block">
-                  — Sree Sree Thakur Anukulchandra, Satyanusaran
-                </cite>
-              </blockquote>
-
-              <p className="text-gradient-saffron text-lg leading-relaxed text-center">
-                Centered around the Living Ideal, we practice Yajan
-                (Self-adjustment), Yaajan (Nurturing others), and Ishtabhriti
-                (Daily love-offering) to transform negative passions into
-                constructive energy for universal well-being.
-              </p>
-
-              <p className="text-gradient-saffron text-lg leading-relaxed text-center font-medium">
-                Satsang Vihar New Delhi is an integral branch, completely
-                attached and dedicated to the spiritual lineage and
-                administrative guidance of Satsang Ashram, Deoghar.
-              </p>
-            </div>
-          </motion.div>
-        </div>
-      </section>
+    
 
       {/* Our Mission */}
       <section className="py-20 bg-[#243447]">
