@@ -4,7 +4,7 @@ import outrGroup from "@/assets/outr-group.png";
 import statueBlue2 from "@/assets/statue-blue2.png";
 import statueClose from "@/assets/statue-close.png";
 import Groupphoto1 from "@/assets/DSC_6024.JPG.jpeg";
-import groupphoto2 from "@/assets/WHITE GROUP.jpeg";
+import Groupphoto2 from "@/assets/WHITE GROUP.jpeg";
 import statueClose1 from "@/assets/IMG-20260105-WA0197.jpg (1).jpeg";
 import Layout from "@/components/Layout";
 import RegistrationDialog from "@/components/RegistrationDialog";
@@ -12,7 +12,7 @@ import UpcomingEventCard from "@/components/UpcomingEventCard";
 import React, { useState, useEffect } from "react";
 
 // Fade-in/out gallery images
-const scrollImages = [outrGroup, statueClose1];
+const scrollImages = [outrGroup, statueClose1,Groupphoto1,Groupphoto2];
 
 // Fade-up animation variant for hero text
 const fadeUp = {
